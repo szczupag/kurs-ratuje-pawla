@@ -1,0 +1,45 @@
+.jump-btn a {
+    background-color: transparent;
+    text-align: center;
+    padding: 12px 25px;
+    border-radius: 30px;
+    color: #fa56aa;
+    font-size: 1.2rem;
+    border: 2px solid #fa56aa;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    animation: .4s jump ease infinite alternate;
+    transition: transform .1s ease;
+    text-decoration: none;
+    text-shadow: 0 0 6px #fa56aa8a;
+}
+
+.jump-btn:hover {
+    transform: scale(1.05);
+}
+
+.secondary .jump-btn a {
+    color: #80c6ff;
+    border-color: #80c6ff;
+    animation: .4s secondary-jump ease infinite alternate;
+    text-shadow: 0 0 6px #80c6ff8a;
+}
+
+@keyframes jump {
+    0% {
+        box-shadow: 0 0 2px #fa56aa, inset 0 0 2px #fa56aa;
+    }
+    100% {
+        box-shadow: 0 0 6px #fa56aa, inset 0 0 6px #fa56aa;
+    }
+}
+
+@keyframes secondary-jump {
+    0% {
+        box-shadow: 0 0 2px #80c6ff, inset 0 0 2px #80c6ff;
+    }
+    100% {
+        box-shadow: 0 0 6px #80c6ff, inset 0 0 6px #80c6ff;
+    }
+}

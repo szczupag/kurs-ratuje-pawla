@@ -1,0 +1,27 @@
+.navigation {
+    background-color: transparent;
+    border: 2px solid #80c6ff;
+    text-shadow: 0 0 6px #80c6ff7a;
+    box-shadow: 0 0 6px #80c6ff, inset 0 0 6px #80c6ff;
+    padding: 25px 20px 25px 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.navigation a {
+    color: #80c6ff;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #fa56aa;
+    text-shadow: 0 0 6px #fa56aa7a;
+}
+
+.navigation ul {
+    color: #80c6ff;
+}
+
+.navigation li {
+    margin: 16px 0;
+}
