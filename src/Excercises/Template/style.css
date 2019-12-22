@@ -15,17 +15,16 @@
     color: #80c6ff;
     display: flex;
     justify-content: space-between;
+    font-family: 'VT323', monospace;
 }
 
 .header h1 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .header a {
-    font-size: 1.5rem;
-    color: #80c6ff;
-    text-decoration: none;
+    font-size: 2rem;
 }
 
 .header a:hover {
