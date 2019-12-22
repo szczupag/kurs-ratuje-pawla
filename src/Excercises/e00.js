@@ -1,13 +1,41 @@
 import React from 'react'
-import Button from '../Button'
 import Template from './Template'
+import diagram from '../assets/e00_diagram.png'
 
 const Excercise = () => (
-    <Template>
-        <h2>Witam na kursie elo</h2>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-        <h2>Co to jest HTML i CSS</h2>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+    <Template nextStep="/struktura-html">
+        <h2>Witaj na kursie!</h2>
+        <p>Dziękujemy za zapisanie się na charytatywny kurs - Podstawy HTML i CSS! Podczas warsztatów nauczysz się tworzyć proste strony internetowe, a także obsługiwać narzędzia z nimi związne.</p>
+        <p>Kurs podzielony jest na zadania. Każdy kolejny krok zbliży cię do ukończenia swojej pierwszej strony internetowej! W każdym rodziale znajduje się krótki wstęp teoretyczny, który jest szerszej omawiany podczas trwania warsztatów, ale pozwoli Ci wrócić po ukończeniu kursu do interesujących Cię zagadnień.</p>
+        <h2>Jak w ogóle działa internet? 🤔</h2>
+        <p>Pomyśl o tym jak otwierasz swoją ulubioną stronę internetową. Czy wiesz co się dzieje po wpisaniu adresu URL w oknie przeglądarki? Co sprawia że strona się nam wyświetla?</p>
+        <img src={diagram} />
+        <a target="_blank" className="img-source" href="https://www.makeschool.com/academy/track/web-dev-summer-academy-2018/how-the-internet-works/how-the-internet-works">Źródło: makeschool.com</a>
+        <p>Role komputerów podłączonych do sieci internetowej dzielimy na klientów i serwery. Adres URL może prowadzić do różnych rodzajów plików zapisanych na serwerze. My będziemy rozpatrywać pliki o rozszerzeniu .html, które zawierają kontent stron internetowych. </p>
+        <p>Co dokładnie dzieje się gdy wpisujemy w przeglądarce adres URL i wciskamy enter?</p>
+        <ol>
+            <li>Przeglądarka pyta serwer DNS o prawdziwy adres serwera</li>
+            <li>Przeglądarka wysyła request HTTP do serwera (za pomocą protokołu TCP/IP) z prośbą o odesłanie pliku zawierającego stronę internetową</li>
+            <li>Jeśli serwer zaakceptuje żądanie klienta, odesyła wiadomość ze statusem 200 oraz pliki żądanej strony</li>
+            <li>Przeglądarka gromadzi nadesłane pliki i wyświetla stronę</li>
+        </ol>
+        <h2>HTML to nie język programowania</h2>
+        <p>HTML jest językiem znaczników wykorzystywanym do tworzenia stron internetowych, pozwalający opisać ich strukturę i podstawowy wygląd. Do zaawansowanego dostosowywania wyglądu elementów strony wykorzystywane są kaskadowe arkusze stylów (CSS). CSS to lista dyrektyw ustalających sposób w jaki ma zostać wyświetlona zawartość wybranych elementów HTML. Kaskadowość oznacza, że zdefiniowane w stylach reguły dominują nad definicjami wcześniejszymi.</p>
+        <h2>Jakich narzędzi potrzebujemy? 🛠</h2>
+        <p>Minimum potrzebne do stworzenia strony www, to:</p>
+        <ul>
+            <li>edytor tekstu - notatnik lub IDE: Visual Studio Code, Atom, Brackets, Sublime Text</li>
+            <li>nowoczesna przeglądarka internetowa - Chorme, Firefox, Opera, Safari</li>
+        </ul>
+        <p>Podczas kursu zalecanym edytorem jest <a target="_blank" href="https://code.visualstudio.com/">Visual Studio Code</a> oraz przeglądarka Chrome.</p>
+        <h2>Planowanie</h2>
+        <p>Pomyśl o czym chcesz utworzyć stronę. Jakie informacje ma zawierać? Jakiego użyjesz tła, obrazów, kolorów?</p>
+        <p>W wyborze kolorów może pomóc ci narzędzie <a target="_blank" href="https://www.google.com/search?q=color+picker">Color Picker</a>.</p> 
+        {/* <p>W <a target="_blank" href="https://www.google.com/imghp?gws_rd=ssl">Google Images</a> możesz znaleźć odpoiednie obrazy.</p>
+        <ul>
+            <li>Wyszukaj interesujący Cię obraz i kliknij w niego.</li>
+            <li>Kliknij prawym przyciskiem myszy na podgląd i wybierz <i>Zapisz obraz jako</i> i zapisz w folderze projektu.</li>
+        </ul> */}
     </Template>
 )
 

@@ -7,7 +7,10 @@ const Navigation = () => (
     <div className="navigation">
         <ul>
             <li><NavLink to="/wprowadzenie">Wprowadzenie</NavLink></li>
-            <li><NavLink to="/zadanie-01">Zadanie 1</NavLink></li>
+            <li><NavLink to="/struktura-html">Struktura dokumentu</NavLink></li>
+            <li><NavLink to="/tagowanie-tekstu">Tagowanie tekstu</NavLink></li>
+            <li><NavLink to="/lista">Lista</NavLink></li>
+            <li><NavLink to="/obraz">Obrazy</NavLink></li>
         </ul>
     </div>
 )
