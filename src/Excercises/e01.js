@@ -37,8 +37,8 @@ const Excercise = () => (
                 &lt;/html&gt;
             </code>
         </pre>
-        <h2>Zadanie 🔥</h2>
-        <p>Wymyśl odpowiedni tytuł dla swojej strony i umieść go w elemencie <i>head</i> za pomocą odpowiedniego taga.</p>
+        <h2>🔥 Zadanie 🔥</h2>
+        <p>Wymyśl tytuł dla swojej strony i umieść go w elemencie <i>head</i> za pomocą odpowiedniego taga.</p>
     </Template>
 )
 
