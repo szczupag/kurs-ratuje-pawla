@@ -18,10 +18,29 @@ const Excercise = () => (
     <p>Podczas kursu zalecanym edytorem jest <a target="_blank" href="https://code.visualstudio.com/">Visual Studio Code</a> oraz przeglądarka Chrome.</p>
     <h2>Jak w ogóle działa internet? 🤔</h2>
     <p>Pomyśl o tym jak otwierasz swoją ulubioną stronę internetową. Czy wiesz co się dzieje po wpisaniu adresu URL w oknie przeglądarki? Co sprawia że strona się nam wyświetla?</p>
+    <h2>Adres URL</h2>
+    <p>Zacznijmy od przeanalizowania wpisywanych przez nas w przeglądarkach adresów URL. Składa się on z:</p>
+    <ul>
+      <li>protokołu http
+        <ul>
+          <li>http</li>
+          <li>https</li>
+          <li>ftp</li>
+        </ul>
+      </li>
+      <li>nazwy hosta (adresu serwera)</li>
+      <li>ścieżki dostępu do zasobu</li>
+    </ul>
+    <p>Wpisując adres w nowoczesnej przeglądarce nie musimy podawać protokołu. Jest on automatycznie dodawany przez przeglądarkę.</p>
+    <h2>DNS</h2>
+    <p>Prawdziwe adresy nie wyglądają zbyt ładnie. Są to unikalne adresy IP, składające się z ciągu liczb. Ciężko byłoby je zapamiętać w takiej formie. Dlatego z pomocą przychodzą serwery DNS, które tłumaczą znane nam adresy stron na ich prawdziwe adresy IP.</p>
+    <h2>🔥 Zadanie 🔥</h2>
+    <p>Wejdź na stronę <a target="_blank" href="https://ipinfo.info/html/ip_checker.php">IP Checker</a> i wpisz adres dowolnej strony internetowej (np. wp.pl) żeby sprawdzić jej adres IP. Następnie wpisz adres IP w oknie przeglądarki i przekonaj się czy strona zostanie wyświetlona.</p>
+    <h2>Jak to się dzieje...</h2>
+    <p>Co dokładnie dzieje się gdy wpisujemy w przeglądarce adres URL i wciskamy enter?</p>
+    <p>Role komputerów podłączonych do sieci internetowej dzielimy na klientów i serwery. Adres URL może prowadzić do różnych rodzajów plików zapisanych na serwerze. My będziemy rozpatrywać pliki o rozszerzeniu .html, które zawierają kontent stron internetowych. </p>
     <img src={diagram} />
     <a target="_blank" className="img-source" href="https://www.makeschool.com/academy/track/web-dev-summer-academy-2018/how-the-internet-works/how-the-internet-works">Źródło: makeschool.com</a>
-    <p>Role komputerów podłączonych do sieci internetowej dzielimy na klientów i serwery. Adres URL może prowadzić do różnych rodzajów plików zapisanych na serwerze. My będziemy rozpatrywać pliki o rozszerzeniu .html, które zawierają kontent stron internetowych. </p>
-    <p>Co dokładnie dzieje się gdy wpisujemy w przeglądarce adres URL i wciskamy enter?</p>
     <ol>
       <li>Przeglądarka pyta serwer DNS o prawdziwy adres serwera</li>
       <li>Przeglądarka wysyła request HTTP do serwera (za pomocą protokołu TCP/IP) z prośbą o odesłanie pliku zawierającego stronę internetową</li>
