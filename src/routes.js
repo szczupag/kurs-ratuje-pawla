@@ -6,6 +6,7 @@ import e00 from './Excercises/e00'
 import e01 from './Excercises/e01'
 import e02 from './Excercises/e02'
 import e03 from './Excercises/e03'
+import e04 from './Excercises/e04'
 
 export default function Routes(){
   return (
@@ -14,6 +15,7 @@ export default function Routes(){
       <Route path="/struktura-html" component={e01} />
       <Route path="/tagowanie-tekstu" component={e02} />
       <Route path="/lista" component={e03} />
+      <Route path="/obrazy" component={e04} />
       <Route path="/fb" component={Fb} />
       <Route path="/" exact component={Main} />
     </Switch>

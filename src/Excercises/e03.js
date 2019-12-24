@@ -2,7 +2,7 @@ import React from 'react'
 import Template from './Template'
 
 const Excercise = () => (
-  <Template nextStep="/">
+  <Template nextStep="/obrazy">
     <h2>Lista</h2>
     <p>Do grupowania treści używa się listy. Przypomina ona listę na zakupy lub spis treści. Dane w niej mogą być luźno wymienione lub uporządkowane.</p>
     <h2>Lista nieuporządkowana</h2>
