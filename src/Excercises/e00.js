@@ -5,8 +5,8 @@ import diagram from '../assets/e00_diagram.png'
 const Excercise = () => (
   <Template nextStep="/struktura-html">
     <h2>Witaj na kursie!</h2>
-    <p>Dziękujemy za zapisanie się na charytatywny kurs - Podstawy HTML i CSS! Podczas warsztatów nauczysz się tworzyć proste strony internetowe, a także obsługiwać narzędzia z nimi związne.</p>
-    <p>Kurs podzielony jest na zadania. Każdy kolejny krok zbliży cię do ukończenia swojej pierwszej strony internetowej! W każdym rozdziale znajduje się krótki wstęp teoretyczny, który jest szerzej omawiany podczas trwania warsztatów, ale pozwoli Ci wrócić po ukończeniu kursu do interesujących Cię zagadnień.</p>
+    <p>Dziękujemy za zapisanie się na charytatywny kurs - Podstawy HTML i CSS! Podczas warsztatów nauczysz się tworzyć proste strony internetowe, a także obsługiwać narzędzia z nimi związane.</p>
+    <p>Kurs podzielony jest na zadania. Każdy kolejny krok zbliży Cię do ukończenia Twojej pierwszej strony internetowej! W każdym rozdziale znajduje się krótki wstęp teoretyczny, który jest szerzej omawiany podczas trwania warsztatów, ale pozwoli Ci wrócić po ukończeniu kursu do interesujących Cię zagadnień.</p>
     <h2>Planowanie</h2>
     <p>Pomyśl o czym chcesz utworzyć stronę. Jakie informacje ma zawierać? Jakiego użyjesz tła, obrazów, kolorów, czcionek?</p>
     <h2>Jakich narzędzi potrzebujemy? 🛠</h2>

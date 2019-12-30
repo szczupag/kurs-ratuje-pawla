@@ -22,6 +22,7 @@ const Excercise = () => (
         &lt;img src="malinka.png" alt="Uśmiechnięta malinka siedząca na sedesie."/&gt; //bardzo dobre<br />
       </code>
     </pre>
+    <p>Do naszego obrazu możemy też dodać tytuł - będzie on wyświetlany po najechaniu kursorem na obraz</p>
     <h2>🔥 Zadanie 🔥</h2>
     <p>Znajdź w <a target="_blank" href="https://www.google.com/imghp?gws_rd=ssl">Google Images</a> obrazy pasujące do Twojej strony.</p>
     <ul>

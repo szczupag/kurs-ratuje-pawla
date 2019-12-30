@@ -49,7 +49,7 @@ const Excercise = () => (
             </code>
         </pre>
         <h2>Zagnieżdżanie elementów</h2>
-        <p>Znaczniki możemy umieszczać wewnątrz innych znaczników, co nazywa się zagnieżdżaniem. Wewnątrz paragrafu możemy umieścić odnośniki, lub możemy chcieć nadać pewnym elementom wyróżniający styl.</p>
+        <p>Znaczniki możemy umieszczać wewnątrz innych znaczników, co nazywa się zagnieżdżaniem. Wewnątrz paragrafu możemy umieścić odnośniki lub możemy nadać pewnym elementom wyróżniający styl.</p>
         <pre class="prettyprint">
             <code language="lang-html">
                 &lt;p&gt;Ta treść zawiera efekt &lt;b&gt;pogrubienia&lt;/b&gt; i &lt;i&gt;kursywy&lt;/i&gt;&lt;/p&gt;<br />

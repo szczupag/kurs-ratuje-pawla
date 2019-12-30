@@ -1,16 +1,16 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import CustomLink from '../../CustomLink'
 
 import s from './style.css'
 
 const Navigation = () => (
     <div className="navigation">
         <ul>
-            <li><NavLink to="/wprowadzenie">Wprowadzenie</NavLink></li>
-            <li><NavLink to="/struktura-html">Struktura dokumentu</NavLink></li>
-            <li><NavLink to="/tagowanie-tekstu">Tagowanie tekstu</NavLink></li>
-            <li><NavLink to="/lista">Lista</NavLink></li>
-            <li><NavLink to="/obrazy">Obrazy</NavLink></li>
+            <li><CustomLink to="/wprowadzenie">Wprowadzenie</CustomLink></li>
+            <li><CustomLink to="/struktura-html">Struktura dokumentu</CustomLink></li>
+            <li><CustomLink to="/tagowanie-tekstu">Tagowanie tekstu</CustomLink></li>
+            <li><CustomLink to="/lista">Lista</CustomLink></li>
+            <li><CustomLink to="/obrazy">Obrazy</CustomLink></li>
         </ul>
     </div>
 )

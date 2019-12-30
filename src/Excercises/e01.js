@@ -11,7 +11,7 @@ const Excercise = () => (
                 &lt;p&gt;Witaj świecie!&lt;/p&gt;
             </code>
         </pre>
-        <p>Dodatkowo tagi mogą posiadać atrybuty. Zawierają one dodatkowe informacje o elemencie, które nie są widoczne dla użytkowników odwiedzających stronę. W poniższym przykładzie <i>class</i> jest nazwą atrybutu, a <i>powitanie</i> jest jego wartością. Atrybut class pozwala nadać elementowi indentyfikator, który potem może być użyty na przykład do nadania stylu.</p>
+        <p>Dodatkowo tagi mogą posiadać atrybuty. Zawierają one dodatkowe informacje o elemencie, które nie są widoczne dla użytkowników odwiedzających stronę. W poniższym przykładzie <i>class</i> jest nazwą atrybutu, a <i>powitanie</i> jest jego wartością. Atrybut class pozwala nadać elementowi identyfikator, który potem może być użyty na przykład do nadania stylu.</p>
         <pre class="prettyprint">
             <code language="lang-html">
                 &lt;p class="powitanie"&gt;Witaj świecie!&lt;/p&gt;
