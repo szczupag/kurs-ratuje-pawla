@@ -3,7 +3,7 @@ import Template from './Template'
 import struktura from '../assets/e01_struktura.png'
 
 const Excercise = () => (
-  <Template nextStep="/tagowanie-tekstu">
+  <Template nextStep="/klasy-id">
     <h2>HTML to język znaczników</h2>
     <p>Podstawową jednostką języka HTML są zanczniki, zwane też tagami. Listę obsługiwanych tagów oraz ich przeznaczenie możesz sprawdzić <a target="_blank" href="https://developer.mozilla.org/pl/docs/Web/HTML/Element">tutaj</a>. Element HTML składa się z kontentu otoczonego tagiem otwierającym i zamykającym.</p>
     <pre class="prettyprint">

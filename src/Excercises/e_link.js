@@ -1,8 +1,6 @@
 import React from 'react'
 import Template from './Template'
 
-import listy from '../assets/e03_example-lists.png'
-
 const Excercise = () => (
   <Template nextStep="/obraz">
     <h2>Linki</h2>

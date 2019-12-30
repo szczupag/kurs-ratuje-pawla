@@ -5,7 +5,7 @@ import block from '../assets/e05_block.png'
 import inline from '../assets/e05_inline.png'
 
 const Excercise = () => (
-  <Template nextStep="/">
+  <Template nextStep="/formularz">
     <h2>Block & Inline</h2>
     <p>Każdy element HTML ma domyślny sposób wyświetlania ze względu na swój rodzaj. Jest to <i>block</i> lub <i>inline</i></p>
     <h2>Block</h2>
@@ -23,6 +23,8 @@ const Excercise = () => (
       <dd>Używany jako kontener dla tekstu, pozwala na ostylowanie jego poszczególnych fragmentów.</dd>
       <dd>Jest elementem liniowym.</dd>
     </dl>
+    <h2>🔥 Zadanie 🔥</h2>
+    <p>Umieść nagłówek swojej strony w środku elementu <i>div</i> i nadaj mu atrybut <i>id="baner"</i>.</p>
   </Template>
 )
 

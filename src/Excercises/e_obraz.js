@@ -24,12 +24,12 @@ const Excercise = () => (
     </pre>
     <p>Do naszego obrazu możemy też dodać tytuł - będzie on wyświetlany po najechaniu kursorem na obraz</p>
     <h2>🔥 Zadanie 🔥</h2>
-    <p>Znajdź w <a target="_blank" href="https://www.google.com/imghp?gws_rd=ssl">Google Images</a> obrazy pasujące do Twojej strony.</p>
+    <p>Znajdź w <a target="_blank" href="https://www.google.com/imghp?gws_rd=ssl">Google Images</a> dwa obrazy pasujące do Twojej strony i dodaj je do projektu:</p>
     <ul>
       <li>Wyszukaj interesujący Cię obraz i kliknij w niego.</li>
       <li>Kliknij prawym przyciskiem myszy na podgląd i wybierz <i>Zapisz obraz jako</i>, następnie zapisz plik w folderze projektu.</li>
     </ul>
-    <p>Następnie umieść obraz pod głównym nagłówkiem i nadaj mu tekst alternatywny.</p>
+    <p>Następnie umieść jeden obraz pod głównym nagłówkiem i nadaj mu tekst alternatywny. Drugi obraz użyjemy później!</p>
   </Template>
 )
 
