@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kurs-ratuje-pawla/precache-manifest.6db2c7847d05e455ac566a3340257d40.js"
+  "/kurs-ratuje-pawla/precache-manifest.a243a40123e71a20e270fddc5b721a58.js"
 );
 
 self.addEventListener('message', (event) => {
