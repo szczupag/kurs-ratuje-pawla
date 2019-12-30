@@ -1,10 +1,14 @@
 import React from 'react'
 import Template from './Template'
 
+import listy from '../assets/e03_example-lists.png'
+
 const Excercise = () => (
-  <Template nextStep="/obrazy">
+  <Template nextStep="/link">
     <h2>Lista</h2>
-    <p>Do grupowania treści używa się listy. Przypomina ona listę na zakupy lub spis treści. Dane w niej mogą być luźno wymienione lub uporządkowane.</p>
+    <p>Do grupowania treści używa się listy. Dane w niej mogą być luźno wymienione lub uporządkowane.</p>
+    <img src={listy} />
+    <a target="_blank" className="img-source" href="http://www.bizstreamacademy.com/ACADEMY/2019_BZSA_Slides/slides.html#/33">Źródło: bizstreamacademy.com</a>
     <h2>Lista nieuporządkowana</h2>
     <p>Elementy w liście nieuporządkowanej są wypunktowane - domyślnie za pomocą kropki.</p>
     <pre class="prettyprint">
@@ -54,11 +58,7 @@ const Excercise = () => (
       </li>
     </ol>
     <h2>🔥 Zadanie 🔥</h2>
-    <ol>
-      <li>Nadaj nagłówkom sekcji unikalne atrybuty id.</li>
-      <li>Pod tytułem umieść spis treści Twojej strony za pomocą listy uporządkowanej lub nieuporządkowanej.</li>
-      <li>Przekształć elementy listy tak, aby zawierały link kierujący do odpowiednich nagłówków. Element <i>a</i> powinien być zagnieżdżony w elemencie <i>li</i>: <code class="prettyprint">&lt;li&gt;&lt;a href="..."&gt;...&lt;/a&gt;&lt;/li&gt;</code></li>
-    </ol>
+    <p>Stwórz spis treści Twojej strony za pomocą listy uporządkowanej lub nieuporządkowanej.</p>
   </Template>
 )
 

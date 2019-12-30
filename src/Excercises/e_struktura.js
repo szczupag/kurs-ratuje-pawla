@@ -8,13 +8,13 @@ const Excercise = () => (
     <p>Podstawową jednostką języka HTML są zanczniki, zwane też tagami. Listę obsługiwanych tagów oraz ich przeznaczenie możesz sprawdzić <a target="_blank" href="https://developer.mozilla.org/pl/docs/Web/HTML/Element">tutaj</a>. Element HTML składa się z kontentu otoczonego tagiem otwierającym i zamykającym.</p>
     <pre class="prettyprint">
       <code language="lang-html">
-        &lt;p&gt;Witaj świecie!&lt;/p&gt;
+        &lt;nazwatagu&gt;Witaj świecie!&lt;/nazwatagu&gt;
             </code>
     </pre>
-    <p>Dodatkowo tagi mogą posiadać atrybuty. Zawierają one dodatkowe informacje o elemencie, które nie są widoczne dla użytkowników odwiedzających stronę. W poniższym przykładzie <i>class</i> jest nazwą atrybutu, a <i>powitanie</i> jest jego wartością. Atrybut class pozwala nadać elementowi identyfikator, który potem może być użyty na przykład do nadania stylu.</p>
+    <p>Dodatkowo tagi mogą posiadać atrybuty. Zawierają one dodatkowe informacje o elemencie, które nie są widoczne dla użytkowników odwiedzających stronę.</p>
     <pre class="prettyprint">
       <code language="lang-html">
-          &lt;p class="powitanie"&gt;Witaj świecie!&lt;/p&gt;
+          &lt;nazwatagu atrybut-z-wartoscia="wartość atrybutu" atrybut-bez-wartosci&gt;Witaj świecie!&lt;/nazwatagu&gt;
       </code>
     </pre>
     <h2>Deklaracja HTML</h2>

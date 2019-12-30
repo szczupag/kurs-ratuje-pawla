@@ -18,7 +18,7 @@ const Main = () => (
             </div>
             <div className="fb-content">
                 <p>Kurs</p>
-                <p style={{ fontSize: '2.8rem' }}>Podstawy HTML i CSS</p>
+                <p class="main">Podstawy HTML i CSS</p>
             </div>
             <div className="fb-footer">
                 <Button
