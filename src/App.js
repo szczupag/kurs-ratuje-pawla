@@ -1,17 +1,18 @@
 import React from 'react';
-import { Router } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import history from './services/history';
 import Routes from './routes';
 import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
-    <Router
+    <BrowserRouter
       history={history}
+      basename={process.env.PUBLIC_URL}
     >
       <ScrollToTop />
       <Routes />
-    </Router>
+    </BrowserRouter>
   );
 }
 export default App;

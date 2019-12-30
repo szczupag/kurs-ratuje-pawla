@@ -1,22 +1,22 @@
 import React from 'react'
-import CustomLink from '../CustomLink'
+import { NavLink } from 'react-router-dom'
 
 import './style.css'
 
 const Button = ({
-    children,
-    style,
-    onClick,
-    to,
+  children,
+  style,
+  onClick,
+  to,
 }) => (
     <div
-        className="jump-btn" style={style}
-        onClick={onClick}
+      className="jump-btn" style={style}
+      onClick={onClick}
     >
-        <CustomLink to={to}>
-            {children}
-        </CustomLink>
+      <NavLink to={to}>
+        {children}
+      </NavLink>
     </div>
-)
+  )
 
 export default Button

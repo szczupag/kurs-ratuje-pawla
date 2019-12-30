@@ -8,18 +8,16 @@ import e02 from './Excercises/e02'
 import e03 from './Excercises/e03'
 import e04 from './Excercises/e04'
 
-const CustomRoute = ({ path, component, ...other }) => <Route path={`${process.env.PUBLIC_URL}/${path}`} component={component} {...other} />
-
 export default function Routes(){
   return (
     <Switch>
-      <CustomRoute path="/wprowadzenie" component={e00} />
-      <CustomRoute path="/struktura-html" component={e01} />
-      <CustomRoute path="/tagowanie-tekstu" component={e02} />
-      <CustomRoute path="/lista" component={e03} />
-      <CustomRoute path="/obrazy" component={e04} />
-      <CustomRoute path="/fb" component={Fb} />
-      <CustomRoute path="/" exact component={Main} />
+      <Route path="/wprowadzenie" component={e00} />
+      <Route path="/struktura-html" component={e01} />
+      <Route path="/tagowanie-tekstu" component={e02} />
+      <Route path="/lista" component={e03} />
+      <Route path="/obrazy" component={e04} />
+      <Route path="/fb" component={Fb} />
+      <Route path="/" exact component={Main} />
     </Switch>
   );
 }
