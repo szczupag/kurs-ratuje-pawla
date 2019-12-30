@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f47c8eeab8d0377b422e68617c9462fb",
+    "revision": "8f2a53e1e2ba88b1a00004cd4dda4d16",
     "url": "/kurs-ratuje-pawla/index.html"
   },
   {
-    "revision": "a6857762e1e3f1b41a12",
-    "url": "/kurs-ratuje-pawla/static/css/main.e83de985.chunk.css"
+    "revision": "1e2cff71346e1e25841c",
+    "url": "/kurs-ratuje-pawla/static/css/main.4154aebc.chunk.css"
   },
   {
-    "revision": "b2f24d81973238dccc13",
-    "url": "/kurs-ratuje-pawla/static/js/2.44048b31.chunk.js"
+    "revision": "d6c3e2f243e1c3d1a9b2",
+    "url": "/kurs-ratuje-pawla/static/js/2.383bd00c.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/kurs-ratuje-pawla/static/js/2.44048b31.chunk.js.LICENSE"
+    "url": "/kurs-ratuje-pawla/static/js/2.383bd00c.chunk.js.LICENSE"
   },
   {
-    "revision": "a6857762e1e3f1b41a12",
-    "url": "/kurs-ratuje-pawla/static/js/main.16d4078b.chunk.js"
+    "revision": "1e2cff71346e1e25841c",
+    "url": "/kurs-ratuje-pawla/static/js/main.af09cf42.chunk.js"
   },
   {
     "revision": "a6a605d5b4ec6e9c578e",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3a51e934a41f0f8c65d45e3c0b7113b4",
     "url": "/kurs-ratuje-pawla/static/media/e01_struktura.3a51e934.png"
+  },
+  {
+    "revision": "731f71e889938513fea8e4adf911ee90",
+    "url": "/kurs-ratuje-pawla/static/media/e03_example-lists.731f71e8.png"
   },
   {
     "revision": "2cd583521ffb094db29dce8e36277531",

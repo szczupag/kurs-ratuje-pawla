@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/kurs-ratuje-pawla/static/css/main.e83de985.chunk.css",
-    "main.js": "/kurs-ratuje-pawla/static/js/main.16d4078b.chunk.js",
-    "main.js.map": "/kurs-ratuje-pawla/static/js/main.16d4078b.chunk.js.map",
+    "main.css": "/kurs-ratuje-pawla/static/css/main.4154aebc.chunk.css",
+    "main.js": "/kurs-ratuje-pawla/static/js/main.af09cf42.chunk.js",
+    "main.js.map": "/kurs-ratuje-pawla/static/js/main.af09cf42.chunk.js.map",
     "runtime-main.js": "/kurs-ratuje-pawla/static/js/runtime-main.76d6438c.js",
     "runtime-main.js.map": "/kurs-ratuje-pawla/static/js/runtime-main.76d6438c.js.map",
-    "static/js/2.44048b31.chunk.js": "/kurs-ratuje-pawla/static/js/2.44048b31.chunk.js",
-    "static/js/2.44048b31.chunk.js.map": "/kurs-ratuje-pawla/static/js/2.44048b31.chunk.js.map",
+    "static/js/2.383bd00c.chunk.js": "/kurs-ratuje-pawla/static/js/2.383bd00c.chunk.js",
+    "static/js/2.383bd00c.chunk.js.map": "/kurs-ratuje-pawla/static/js/2.383bd00c.chunk.js.map",
     "index.html": "/kurs-ratuje-pawla/index.html",
-    "precache-manifest.a243a40123e71a20e270fddc5b721a58.js": "/kurs-ratuje-pawla/precache-manifest.a243a40123e71a20e270fddc5b721a58.js",
+    "precache-manifest.982274f9052c0592f8e16e4fa3a52a93.js": "/kurs-ratuje-pawla/precache-manifest.982274f9052c0592f8e16e4fa3a52a93.js",
     "service-worker.js": "/kurs-ratuje-pawla/service-worker.js",
-    "static/css/main.e83de985.chunk.css.map": "/kurs-ratuje-pawla/static/css/main.e83de985.chunk.css.map",
-    "static/js/2.44048b31.chunk.js.LICENSE": "/kurs-ratuje-pawla/static/js/2.44048b31.chunk.js.LICENSE",
+    "static/css/main.4154aebc.chunk.css.map": "/kurs-ratuje-pawla/static/css/main.4154aebc.chunk.css.map",
+    "static/js/2.383bd00c.chunk.js.LICENSE": "/kurs-ratuje-pawla/static/js/2.383bd00c.chunk.js.LICENSE",
     "static/media/style.css": "/kurs-ratuje-pawla/static/media/background.398a8253.png",
     "static/media/close.svg": "/kurs-ratuje-pawla/static/media/close.a2338291.svg",
     "static/media/e00_diagram.png": "/kurs-ratuje-pawla/static/media/e00_diagram.cae758fb.png",
     "static/media/e01_struktura.png": "/kurs-ratuje-pawla/static/media/e01_struktura.3a51e934.png",
+    "static/media/e03_example-lists.png": "/kurs-ratuje-pawla/static/media/e03_example-lists.731f71e8.png",
     "static/media/maximize.svg": "/kurs-ratuje-pawla/static/media/maximize.2cd58352.svg",
     "static/media/minimize.svg": "/kurs-ratuje-pawla/static/media/minimize.7a132f75.svg",
     "static/media/pointer.svg": "/kurs-ratuje-pawla/static/media/pointer.29a7e036.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.76d6438c.js",
-    "static/js/2.44048b31.chunk.js",
-    "static/css/main.e83de985.chunk.css",
-    "static/js/main.16d4078b.chunk.js"
+    "static/js/2.383bd00c.chunk.js",
+    "static/css/main.4154aebc.chunk.css",
+    "static/js/main.af09cf42.chunk.js"
   ]
 }
