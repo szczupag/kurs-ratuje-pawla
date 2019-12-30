@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import CustomLink from '../CustomLink'
 
 import './style.css'
 
@@ -13,9 +13,9 @@ const Button = ({
         className="jump-btn" style={style}
         onClick={onClick}
     >
-        <NavLink to={to}>
+        <CustomLink to={to}>
             {children}
-        </NavLink>
+        </CustomLink>
     </div>
 )
 
