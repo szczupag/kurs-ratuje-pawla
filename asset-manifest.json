@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "https://szczupag.github.io/kurs-ratuje-pawla/static/css/main.d48deeb3.chunk.css",
-    "main.js": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/main.fc272207.chunk.js",
-    "main.js.map": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/main.fc272207.chunk.js.map",
-    "runtime-main.js": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/runtime-main.e65e7a00.js",
-    "runtime-main.js.map": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/runtime-main.e65e7a00.js.map",
-    "static/js/2.cd3574b3.chunk.js": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/2.cd3574b3.chunk.js",
-    "static/js/2.cd3574b3.chunk.js.map": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/2.cd3574b3.chunk.js.map",
-    "index.html": "https://szczupag.github.io/kurs-ratuje-pawla/index.html",
-    "precache-manifest.6a7ec25a4254d4068e2bd9d5a3997fb2.js": "https://szczupag.github.io/kurs-ratuje-pawla/precache-manifest.6a7ec25a4254d4068e2bd9d5a3997fb2.js",
-    "service-worker.js": "https://szczupag.github.io/kurs-ratuje-pawla/service-worker.js",
-    "static/css/main.d48deeb3.chunk.css.map": "https://szczupag.github.io/kurs-ratuje-pawla/static/css/main.d48deeb3.chunk.css.map",
-    "static/js/2.cd3574b3.chunk.js.LICENSE": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/2.cd3574b3.chunk.js.LICENSE",
-    "static/media/style.css": "https://szczupag.github.io/kurs-ratuje-pawla/static/media/background.398a8253.png",
-    "static/media/close.svg": "https://szczupag.github.io/kurs-ratuje-pawla/static/media/close.a2338291.svg",
-    "static/media/e00_diagram.png": "https://szczupag.github.io/kurs-ratuje-pawla/static/media/e00_diagram.cae758fb.png",
-    "static/media/e01_struktura.png": "https://szczupag.github.io/kurs-ratuje-pawla/static/media/e01_struktura.3a51e934.png",
-    "static/media/maximize.svg": "https://szczupag.github.io/kurs-ratuje-pawla/static/media/maximize.2cd58352.svg",
-    "static/media/minimize.svg": "https://szczupag.github.io/kurs-ratuje-pawla/static/media/minimize.7a132f75.svg",
-    "static/media/pointer.svg": "https://szczupag.github.io/kurs-ratuje-pawla/static/media/pointer.29a7e036.svg"
+    "main.css": "/kurs-ratuje-pawla/static/css/main.e83de985.chunk.css",
+    "main.js": "/kurs-ratuje-pawla/static/js/main.0859aace.chunk.js",
+    "main.js.map": "/kurs-ratuje-pawla/static/js/main.0859aace.chunk.js.map",
+    "runtime-main.js": "/kurs-ratuje-pawla/static/js/runtime-main.76d6438c.js",
+    "runtime-main.js.map": "/kurs-ratuje-pawla/static/js/runtime-main.76d6438c.js.map",
+    "static/js/2.cd3574b3.chunk.js": "/kurs-ratuje-pawla/static/js/2.cd3574b3.chunk.js",
+    "static/js/2.cd3574b3.chunk.js.map": "/kurs-ratuje-pawla/static/js/2.cd3574b3.chunk.js.map",
+    "index.html": "/kurs-ratuje-pawla/index.html",
+    "precache-manifest.6db2c7847d05e455ac566a3340257d40.js": "/kurs-ratuje-pawla/precache-manifest.6db2c7847d05e455ac566a3340257d40.js",
+    "service-worker.js": "/kurs-ratuje-pawla/service-worker.js",
+    "static/css/main.e83de985.chunk.css.map": "/kurs-ratuje-pawla/static/css/main.e83de985.chunk.css.map",
+    "static/js/2.cd3574b3.chunk.js.LICENSE": "/kurs-ratuje-pawla/static/js/2.cd3574b3.chunk.js.LICENSE",
+    "static/media/style.css": "/kurs-ratuje-pawla/static/media/background.398a8253.png",
+    "static/media/close.svg": "/kurs-ratuje-pawla/static/media/close.a2338291.svg",
+    "static/media/e00_diagram.png": "/kurs-ratuje-pawla/static/media/e00_diagram.cae758fb.png",
+    "static/media/e01_struktura.png": "/kurs-ratuje-pawla/static/media/e01_struktura.3a51e934.png",
+    "static/media/maximize.svg": "/kurs-ratuje-pawla/static/media/maximize.2cd58352.svg",
+    "static/media/minimize.svg": "/kurs-ratuje-pawla/static/media/minimize.7a132f75.svg",
+    "static/media/pointer.svg": "/kurs-ratuje-pawla/static/media/pointer.29a7e036.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e65e7a00.js",
+    "static/js/runtime-main.76d6438c.js",
     "static/js/2.cd3574b3.chunk.js",
-    "static/css/main.d48deeb3.chunk.css",
-    "static/js/main.fc272207.chunk.js"
+    "static/css/main.e83de985.chunk.css",
+    "static/js/main.0859aace.chunk.js"
   ]
 }
