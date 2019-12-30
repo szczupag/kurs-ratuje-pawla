@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c5aff7c2e153346860d9f2263f453bfd",
+    "revision": "f95138cba5558dd6caeaf49fdce1c4d5",
     "url": "https://szczupag.github.io/kurs-ratuje-pawla/index.html"
   },
   {
