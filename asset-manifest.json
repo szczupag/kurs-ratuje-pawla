@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "https://szczupag.github.io/kurs-ratuje-pawla/static/css/main.d48deeb3.chunk.css",
-    "main.js": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/main.466fc4db.chunk.js",
-    "main.js.map": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/main.466fc4db.chunk.js.map",
+    "main.js": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/main.fc272207.chunk.js",
+    "main.js.map": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/main.fc272207.chunk.js.map",
     "runtime-main.js": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/runtime-main.e65e7a00.js",
     "runtime-main.js.map": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/runtime-main.e65e7a00.js.map",
-    "static/js/2.57fa41d1.chunk.js": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/2.57fa41d1.chunk.js",
-    "static/js/2.57fa41d1.chunk.js.map": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/2.57fa41d1.chunk.js.map",
+    "static/js/2.cd3574b3.chunk.js": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/2.cd3574b3.chunk.js",
+    "static/js/2.cd3574b3.chunk.js.map": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/2.cd3574b3.chunk.js.map",
     "index.html": "https://szczupag.github.io/kurs-ratuje-pawla/index.html",
-    "precache-manifest.24b89119f8548a13f3b95a33cfd6269e.js": "https://szczupag.github.io/kurs-ratuje-pawla/precache-manifest.24b89119f8548a13f3b95a33cfd6269e.js",
+    "precache-manifest.0236ace0ae68097647e28670105e2f2e.js": "https://szczupag.github.io/kurs-ratuje-pawla/precache-manifest.0236ace0ae68097647e28670105e2f2e.js",
     "service-worker.js": "https://szczupag.github.io/kurs-ratuje-pawla/service-worker.js",
     "static/css/main.d48deeb3.chunk.css.map": "https://szczupag.github.io/kurs-ratuje-pawla/static/css/main.d48deeb3.chunk.css.map",
-    "static/js/2.57fa41d1.chunk.js.LICENSE": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/2.57fa41d1.chunk.js.LICENSE",
+    "static/js/2.cd3574b3.chunk.js.LICENSE": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/2.cd3574b3.chunk.js.LICENSE",
     "static/media/style.css": "https://szczupag.github.io/kurs-ratuje-pawla/static/media/background.398a8253.png",
     "static/media/close.svg": "https://szczupag.github.io/kurs-ratuje-pawla/static/media/close.a2338291.svg",
     "static/media/e00_diagram.png": "https://szczupag.github.io/kurs-ratuje-pawla/static/media/e00_diagram.cae758fb.png",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e65e7a00.js",
-    "static/js/2.57fa41d1.chunk.js",
+    "static/js/2.cd3574b3.chunk.js",
     "static/css/main.d48deeb3.chunk.css",
-    "static/js/main.466fc4db.chunk.js"
+    "static/js/main.fc272207.chunk.js"
   ]
 }

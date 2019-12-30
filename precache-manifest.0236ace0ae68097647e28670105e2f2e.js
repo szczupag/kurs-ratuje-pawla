@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bdc3ce356f4fe7ca20acef8c3d926db2",
+    "revision": "c5aff7c2e153346860d9f2263f453bfd",
     "url": "https://szczupag.github.io/kurs-ratuje-pawla/index.html"
   },
   {
-    "revision": "15977522c572fc851f65",
+    "revision": "85d91f91c294e063e962",
     "url": "https://szczupag.github.io/kurs-ratuje-pawla/static/css/main.d48deeb3.chunk.css"
   },
   {
-    "revision": "3b15dbb56032ba97dfa1",
-    "url": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/2.57fa41d1.chunk.js"
+    "revision": "e11803c3ebfe62e95e82",
+    "url": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/2.cd3574b3.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/2.57fa41d1.chunk.js.LICENSE"
+    "url": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/2.cd3574b3.chunk.js.LICENSE"
   },
   {
-    "revision": "15977522c572fc851f65",
-    "url": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/main.466fc4db.chunk.js"
+    "revision": "85d91f91c294e063e962",
+    "url": "https://szczupag.github.io/kurs-ratuje-pawla/static/js/main.fc272207.chunk.js"
   },
   {
     "revision": "16597d8fc944a25b680c",
