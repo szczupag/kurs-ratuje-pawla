@@ -29,7 +29,7 @@ const Main = () => (
             </div>
         </div>
         <div className="fb-link">
-            <a target="_blank" href="siepomaga.pl/ratujemy-pawla">siepomaga.pl/ratujemy-pawla</a>
+            <a target="_blank" href="https://www.siepomaga.pl/ratujemy-pawla">siepomaga.pl/ratujemy-pawla</a>
         </div>
     </div>
 )
