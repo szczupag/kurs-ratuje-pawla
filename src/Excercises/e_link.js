@@ -14,10 +14,7 @@ const Excercise = () => (
       </code>
     </pre>
     <h2>🔥 Zadanie 🔥</h2>
-    <ol>
-      <li>Nadaj nagłówkom sekcji unikalne atrybuty id.</li>
-      <li>Przekształć elementy spisu treści tak, aby zawierały linki kierujące do odpowiadających im nagłówków. Element <i>a</i> powinien być zagnieżdżony w elemencie <i>li</i>: <br /> <code class="prettyprint">&lt;li&gt;&lt;a href="..."&gt;...&lt;/a&gt;&lt;/li&gt;</code></li>
-    </ol>
+    <p>Przekształć elementy spisu treści tak, aby zawierały linki kierujące do odpowiadających im nagłówków. Element <i>a</i> powinien być zagnieżdżony w elemencie <i>li</i>: <br /> <code class="prettyprint">&lt;li&gt;&lt;a href="..."&gt;...&lt;/a&gt;&lt;/li&gt;</code></p>
   </Template>
 )
 

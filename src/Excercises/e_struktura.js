@@ -3,7 +3,9 @@ import Template from './Template'
 import struktura from '../assets/e01_struktura.png'
 
 const Excercise = () => (
-  <Template nextStep="/klasy-id">
+  <Template nextStep="/tagowanie-tekstu">
+    <h2>HTML to nie język programowania</h2>
+    <p>HTML jest językiem znaczników wykorzystywanym do tworzenia stron internetowych, pozwalający opisać ich strukturę i podstawowy wygląd. Do zaawansowanego dostosowywania wyglądu elementów strony wykorzystywane są kaskadowe arkusze stylów (CSS). CSS to lista dyrektyw ustalających sposób w jaki ma zostać wyświetlona zawartość wybranych elementów HTML.</p>
     <h2>HTML to język znaczników</h2>
     <p>Podstawową jednostką języka HTML są zanczniki, zwane też tagami. Listę obsługiwanych tagów oraz ich przeznaczenie możesz sprawdzić <a target="_blank" href="https://developer.mozilla.org/pl/docs/Web/HTML/Element">tutaj</a>. Element HTML składa się z kontentu otoczonego tagiem otwierającym i zamykającym.</p>
     <pre class="prettyprint">
@@ -63,7 +65,7 @@ const Excercise = () => (
         &lt;html lang="pl"&gt;<br /><br />
         &lt;head&gt;<br />
         &nbsp;&nbsp;&lt;meta charset="utf-8" /&gt;<br />
-        {/* &nbsp;&nbsp;&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;<br /> */}
+        &nbsp;&nbsp;&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;<br />
         &lt;/head&gt;<br /><br />
         &lt;body&gt;<br />
         &nbsp;&nbsp;Witaj świecie!<br />
@@ -71,8 +73,10 @@ const Excercise = () => (
         &lt;/html&gt;
             </code>
     </pre>
+    <h2>Meta tag</h2>
+    <p>Użyty w kodzie element <i>meta</i> z atrybutem <i>charset</i> ustawia kodowanie dokumentu na UTF-8. Jest to istotne jeśli chcemy na stronie używać znaków diakrytycznych, np. znaki polskie. Drugi element pozwala na zoptymalizowane wyświetlanie strony na urządzeniach mobilnych - będzie ona dopasowana do rozmiarów okna.</p>
     <h2>Samozamykający się tag</h2>
-    <p>W powyższym kodzie pojawił się element <code class="prettyprint">&lt;meta charset="utf-8" /&gt;</code>, który wygląda trochę inaczej... Nie składa się bowiem ze znacznika otwierającego i zamykającego. Tego typu znaczniki nie zawierają treści, którą mogłyby wyświetlić. Nadal jednak mogą posiadać atrybuty. Oprócz tagu <i>meta</i> innym popularnym przykładem jest tag <i>img</i>, za pomocą którego umieszcza sie na stronie obraz. Ten tag również nie przyjmuje w środku treści, bo ścieżkę do docelowego pliku podaje się za pomocą atrybutu <i>src</i>.</p>
+    <p>Element <code class="prettyprint">&lt;meta&gt;</code> wygląda trochę inaczej niż poznane na początku tagi HTML... Nie składa się bowiem ze znacznika otwierającego i zamykającego. Tego typu znaczniki nie zawierają treści, którą mogłyby wyświetlić. Nadal jednak mogą posiadać atrybuty.</p>
     {/* <h2>Znaczniki struktury dokumentu HTML</h2>
         <img src={struktura} />
         <a target="_blank" className="img-source" href="http://www.kurshtmlcss.pl/kurs-html/lekcja1-struktura-dokumentu-html.php">Źródło: kurshtmlcss.pl</a> */}

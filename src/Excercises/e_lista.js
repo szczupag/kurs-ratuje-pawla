@@ -4,7 +4,7 @@ import Template from './Template'
 import listy from '../assets/e03_example-lists.png'
 
 const Excercise = () => (
-  <Template nextStep="/link">
+  <Template nextStep="/klasy-id">
     <h2>Lista</h2>
     <p>Do grupowania treści używa się listy. Dane w niej mogą być luźno wymienione lub uporządkowane.</p>
     <img src={listy} />

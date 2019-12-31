@@ -12,6 +12,9 @@ import e_blockinline from './Excercises/e_blockinline'
 import e_formularz from './Excercises/e_formularz'
 import e_klasyid from './Excercises/e_klasyid'
 import e_css from './Excercises/e_css'
+import e_kolory from './Excercises/e_kolory'
+import e_tlo from './Excercises/e_tlo'
+import e_boxmodel from './Excercises/e_box-model'
 
 export default function Routes(){
   return (
@@ -26,6 +29,9 @@ export default function Routes(){
       <Route path="/formularz" component={e_formularz} />
       <Route path="/klasy-id" component={e_klasyid} />
       <Route path="/css" component={e_css} />
+      <Route path="/kolory" component={e_kolory} />
+      <Route path="/tlo" component={e_tlo} />
+      <Route path="/box-model" component={e_boxmodel} />
       <Route path="/fb" component={Fb} />
       <Route path="/" exact component={Main} />
     </Switch>

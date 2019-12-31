@@ -4,7 +4,7 @@ import Template from './Template'
 import syntax from '../assets/e_css-syntax.gif'
 
 const Excercise = () => (
-  <Template nextStep="/">
+  <Template nextStep="/kolory">
     <h2>CSS</h2>
     <p>Style CSS opisują jak elementy HTML mają zostać wyświetlone przez przeglądarkę. Możemy je dodać do strony na kilka sposobów.</p>
     <h2>Inline style</h2>
@@ -38,7 +38,7 @@ const Excercise = () => (
       <li>id</li>
     </ul>
     <p>Selektory możemy ze sobą łączyć:</p>
-    <pre class="prettyprint">
+    <pre class="prettyprint lang-css">
       <code language="lang-css">
         p.autor &#123;<br />
         &nbsp;&nbsp;color: red;<br />
@@ -46,7 +46,7 @@ const Excercise = () => (
       </code>
     </pre>
     <p>Oraz zagnieżdżać:</p>
-    <pre class="prettyprint">
+    <pre class="prettyprint lang-css">
       <code language="lang-css">
         .autorzy p &#123;<br />
         &nbsp;&nbsp;color: red;<br />
@@ -74,15 +74,26 @@ const Excercise = () => (
       </code>
     </pre>
     <h2>External style</h2>
-    <p>Zazwyczaj przy tworzeniu stron używa się bardzo wielu reguł CSS, w związku z czym mogą one zacząć zajmować dużo miejsca w naszym dokumencie. Aby odseparować kod HTML od CSS przenosi się je do osobnego pliku i odpowiednio łączy za pomocą tagu <i>link.</i></p>
+    <p>Zazwyczaj przy tworzeniu stron używa się bardzo wielu reguł CSS, w związku z czym mogą one zacząć zajmować dużo miejsca w naszym dokumencie. Aby odseparować warstwę zawartości od prezentacji przenosi się style do osobnego pliku i odpowiednio łączy z plikiem HTML za pomocą tagu <i>link.</i></p>
     <pre class="prettyprint">
       <code language="lang-html">
         &lt;head&gt;<br />
-        &nbsp;&nbsp;&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;<br />
+        &nbsp;&nbsp;&lt;link rel="stylesheet" type="text/css" href="style.css" /&gt;<br />
         &lt;/head&gt;<br />
       </code>
     </pre>
     <h2>Kaskadowość</h2>
+    <p>Kolejność dodawanych przez nas reguł ma znaczenie. Jeśli zdefiniowaliśmy więcej niż jedną regułę dla konkretnego elementu, to pod uwagę będzie brana ta ostatnia.</p>
+    <pre class="prettyprint lang-css">
+      <code language="lang-css">
+        p &#123;<br />
+        &nbsp;color: red;<br />
+        &#125;<br /><br />
+        p &#123;<br />
+        &nbsp;color: blue;<br />
+        &#125;<br />
+      </code>
+    </pre>
     <p>Pomyślmy teraz o takiej sytuacji - zdefiniowaliśmy kilka reguł dla danego elementu na różne sposoby. Który zostanie użyty?</p>
     <pre class="prettyprint">
       <code language="lang-html">
@@ -100,12 +111,31 @@ const Excercise = () => (
       </code>
     </pre>
     <p>Najwyższy priorytet ma styl nadany w atrybucie elementu. Następnie pod uwagę brane są style zawarte w sekcji <i>head</i>. Kolejne style tam załączone nadpisują te poprzedzające. Dopiero na końcu brane są pod uwagę domyślne style przeglądarki.</p>
+    <h2>Specificity</h2>
+    <p>Który styl zostanie zastosowany dla elementu, jeśli zdefiniowaliśmy je z innymi selektorami? Określa to reguła <i>specificity</i>, oznaczająca że większy priorytet ma styl z bardziej szczegółowym selektorem.<br />Zobrazujmy to na przykładzie! Poniżej mamy dwie reguły. Jedna odnosi się do elementu z klasą autor, druga zaś do tagu span. Drugi selektor jest bardziej ogólny niż pierwszy, dlatego ma niższy priorytet i w związku z tym to właśnie pierwszy styl zostanie naniesiony na element.</p>
+    <pre class="prettyprint">
+      <code language="lang-html">
+        &lt;head&gt;<br />
+        &nbsp;&nbsp;&lt;style&gt;<br />
+        &nbsp;&nbsp;&nbsp;.autor &#123;<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;color: red;<br />
+        &nbsp;&nbsp;&nbsp;&#125;<br />
+        &nbsp;&nbsp;&nbsp;span &#123;<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;color: blue;<br />
+        &nbsp;&nbsp;&nbsp;&#125;<br />
+        &nbsp;&nbsp;&lt;/style&gt;<br />
+        &lt;/head&gt;<br />
+        &lt;body&gt;<br />
+        &nbsp;&nbsp;&lt;span class="autor"&gt;John Doe&lt;span&gt;<br />
+        &lt;/body&gt;<br />
+      </code>
+    </pre>
     <h2>🔥 Zadanie 🔥</h2>
     <p>Utwórz plik <i>style.css</i> i załącz go do strony. Stwórz w pliku następujące reguły:</p>
     <ul>
       <li>Zmień kolor i wielkość nagłówka za pomocą selektora - id</li>
       <li>Zmień kolor i wielkość nagłówków drugiego rzędu za pomocą selektora - tagu</li>
-      <li>Nadaj elementom <code class="prettyprint">&lt;a&gt;</code> w spisie treści regułę <code class="prettyprint">text-decoration: none;</code> oraz <code class="prettyprint">color: inherit;</code> </li>
+      <li>Nadaj elementom <code class="prettyprint">&lt;a&gt;</code> w spisie treści regułę <code class="prettyprint lang-css">text-decoration: none;</code> oraz <code class="prettyprint lang-css">color: inherit;</code> </li>
     </ul>
   </Template>
 )

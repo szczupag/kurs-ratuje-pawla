@@ -2,7 +2,7 @@ import React from 'react'
 import Template from './Template'
 
 const Excercise = () => (
-  <Template nextStep="/tagowanie-tekstu">
+  <Template nextStep="/link">
     <h2>Class</h2>
     <p>Atrybut <i>class</i> służy do oznaczenia elementów, które mają mieć nadany ten sam styl lub ma na nie zadziałać odpowiedni skrypt. Tą samą klasę może mieć wiele elementów, nawet różnego rodzaju.</p>
     <pre class="prettyprint">
@@ -19,6 +19,8 @@ const Excercise = () => (
         &lt;p id="wicedyrektor"&gt;Jane Doe&lt;/p&gt;<br />
       </code>
     </pre>
+    <h2>🔥 Zadanie 🔥</h2>
+    <p>Nadaj nagłówkom sekcji unikalne atrybuty id.</p>
   </Template>
 )
 

@@ -24,7 +24,10 @@ const Excercise = () => (
       <dd>Jest elementem liniowym.</dd>
     </dl>
     <h2>🔥 Zadanie 🔥</h2>
-    <p>Umieść nagłówek swojej strony w środku elementu <i>div</i> i nadaj mu atrybut <i>id="baner"</i>.</p>
+    <ol>
+      <li>Zastanów się które z dotyczas poznanych elementów HTML są blokowe, a które liniowe.</li>
+      <li>Umieść nagłówek swojej strony w środku elementu <i>div</i> i nadaj mu atrybut <i>id="baner"</i>.</li>
+    </ol>
   </Template>
 )
 
