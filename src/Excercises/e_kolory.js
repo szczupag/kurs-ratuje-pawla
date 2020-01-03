@@ -2,7 +2,7 @@ import React from 'react'
 import Template from './Template'
 
 const Excercise = () => (
-  <Template nextStep="/tlo">
+  <Template nextStep="/font">
     <h2>Kolory</h2>
     <p>Kolory określa się używając predefiniowanych nazw lub wartości RGB, HEX i innych palet. Dla przykładu poniżej znajduje się opis tego samego koloru na różne sposoby:</p>
     <pre class="prettyprint lang-css">
@@ -38,7 +38,7 @@ const Excercise = () => (
     </ul>
     <p>są liczbami w systemie szesnastkowym z zakresu 00 do ff (równowartość wartości dziesiętnych z zakresu 0 - 255). Na przykład #ff0000 będzie odpowiadać kolorowi czerwonemu.</p>
     <h2>🔥 Zadanie 🔥</h2>
-    <p>Nadaj tło elementowi <i>body</i> za pomocą palety kolorów RGB lub HEX. W wyborze kolorów może pomóc Ci narzędzie <a target="_blank" href="https://www.google.com/search?q=color+picker">Color Picker</a>.</p> 
+    <p>Nadaj tło elementowi <i>body</i> oraz elementom z klasą <i>content</i> i <i>sidebar</i> za pomocą palety kolorów RGB lub HEX. W wyborze kolorów może pomóc Ci narzędzie <a target="_blank" href="https://www.google.com/search?q=color+picker">Color Picker</a>.</p> 
   </Template>
 )
 

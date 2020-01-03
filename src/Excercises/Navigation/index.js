@@ -17,9 +17,12 @@ const Navigation = () => (
       <li><NavLink to="/formularz">Formularz</NavLink></li>
       <li><NavLink to="/css">CSS</NavLink></li>
       <li><NavLink to="/kolory">Kolory</NavLink></li>
+      <li><NavLink to="/font">Font</NavLink></li>
       <li><NavLink to="/tlo">Tło</NavLink></li>
       <li><NavLink to="/box-model">Box model</NavLink></li>
       <li><NavLink to="/flex-box">Flex box</NavLink></li>
+      <li><NavLink to="/responsywnosc">Responsywność</NavLink></li>
+      <li><NavLink to="/podsumowanie">Podsumowanie</NavLink></li>
     </ul>
   </div>
 )

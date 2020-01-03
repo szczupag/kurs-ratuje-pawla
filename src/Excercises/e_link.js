@@ -14,7 +14,12 @@ const Excercise = () => (
       </code>
     </pre>
     <h2>🔥 Zadanie 🔥</h2>
-    <p>Przekształć elementy spisu treści tak, aby zawierały linki kierujące do odpowiadających im nagłówków. Element <i>a</i> powinien być zagnieżdżony w elemencie <i>li</i>: <br /> <code class="prettyprint">&lt;li&gt;&lt;a href="..."&gt;...&lt;/a&gt;&lt;/li&gt;</code></p>
+    <ol>
+      <li>Przekształć elementy spisu treści tak, aby zawierały linki kierujące do odpowiadających im nagłówków. - link wewnętrzny!</li>
+      <li>Utwórz w folderze projektu pusty plik <i>newsletter.html</i>.</li>
+      <li>Dodaj na końcu spisu treści nowy element listy "Newsletter", który będzie zawierał link do utworzonego przed chwilą pliku. - link zewnętrzny!</li>
+    </ol>
+    <p>Wskazówka:  Element <i>a</i> powinien być zagnieżdżony w elemencie <i>li</i>: <code class="prettyprint">&lt;li&gt;&lt;a href="..."&gt;...&lt;/a&gt;&lt;/li&gt;</code></p>
   </Template>
 )
 

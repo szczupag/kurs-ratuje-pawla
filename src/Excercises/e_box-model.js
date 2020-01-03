@@ -87,9 +87,15 @@ const Excercise = () => (
       </code>
     </pre>
     <p>Jakie będą pełne wymiary powyższego elementu?</p>
-    <p>Całkowita szerokość = lewy margines + lewe obramowanie + lewy padding + szerokość kontentu + prawy padding + prawe obramowanie + prawy margines<br/>Całkowita wysokość = górny margines + górne obramowanie + górny padding + wysokość kontentu + dolny padding + dolne obramowanie + dolny margines</p>
+    <p><b>Całkowita szerokość</b> = lewy margines + lewe obramowanie + lewy padding + szerokość kontentu + prawy padding + prawe obramowanie + prawy margines<br/><b>Całkowita wysokość</b> = górny margines + górne obramowanie + górny padding + wysokość kontentu + dolny padding + dolne obramowanie + dolny margines</p>
     <p>Jeśli chcemy ustalać wielkości naszych elementów bez dodatkowych kalkulacji, możemy zmienić interpretację modelu pudełkowego poprzez zastosowanie właściwości <code class="prettyprint lang-css">box-sizing: border-box;</code></p>
-    <p>Całkowita szerokość = szerokość nadana elementowi</p>
+    <p><b>Całkowita szerokość</b> = szerokość nadana elementowi<br /><b>Całkowita wysokość</b> = wysokość nadana elementowi</p>
+    <h2>🔥 Zadanie 🔥</h2>
+    <ul>
+      <li>Nadaj banerowi padding, tak aby nagłówek w nim zawarty prezentował się bardziej atrakcyjnie.</li>
+      <li>Dodaj do banera właściwość <i>margin-bottom</i> aby uzyskać odstęp od treści.</li>
+      <li>Zastosuj padding w elementach z klasą <i>content</i> i <i>sidebar.</i></li>
+    </ul>
   </Template>
 )
 

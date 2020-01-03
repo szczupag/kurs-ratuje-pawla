@@ -115,8 +115,24 @@ const Excercise = () => (
       </code>
     </pre>
     <h2>🔥 Zadanie 🔥</h2>
-    <p>Stwórz formularz do newslettera o poniższej strukturze, dobierając odpowiednie rodzaje pól i ich atrybuty</p>
-    <ul>
+    <p>Otwórz plik <i>newsletter.html</i> i przepisz lub skopiuj do niego poniższy kod.</p>
+    <pre class="prettyprint">
+      <code language="lang-html">
+        &lt;!DOCTYPE HTML&gt;<br />
+        &lt;html lang="pl"&gt;<br /><br />
+        &lt;head&gt;<br />
+        &nbsp;&nbsp;&lt;meta charset="utf-8" /&gt;<br />
+        &nbsp;&nbsp;&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;<br />
+        &lt;/head&gt;<br /><br />
+        &lt;body&gt;<br />
+        &nbsp;&nbsp;&lt;div class="content"&gt;<br />
+        &nbsp;&nbsp;&lt;/div&gt;<br />
+        &lt;/body&gt;<br /><br />
+        &lt;/html&gt;
+            </code>
+    </pre>
+    <p>Stwórz w elemencie <i>div</i> formularz do newslettera o poniższej strukturze, dobierając odpowiednie rodzaje pól i ich atrybuty</p>
+    <ul style={{listStyleType: "none"}}>
       <li>Imię</li>
       <li>Adres email*</li>
       <li>Jak często chcesz otrzymywać nasz newsletter?
