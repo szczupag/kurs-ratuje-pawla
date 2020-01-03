@@ -74,7 +74,7 @@ const Excercise = () => (
             </code>
     </pre>
     <h2>Meta tag</h2>
-    <p>Użyty w kodzie element <i>meta</i> z atrybutem <i>charset</i> ustawia kodowanie dokumentu na UTF-8. Jest to istotne jeśli chcemy na stronie używać znaków diakrytycznych, np. znaki polskie. Drugi element pozwala na zoptymalizowane wyświetlanie strony na urządzeniach mobilnych - będzie ona dopasowana do rozmiarów okna.</p>
+    <p>Użyty w kodzie element <i>meta</i> z atrybutem <i>charset</i> ustawia kodowanie dokumentu na UTF-8. Jest to istotne jeśli chcemy na stronie używać znaków diakrytycznych, np. znaki polskie. Właściwość initial-scale=1 optymalizuje wyświetlanie strony na urządzeniach mobilnych - powinna pokazać się bez powiększenia w swojej naturalnej wielkości, dopasowana do rozmiarów okna.</p>
     <h2>Samozamykający się tag</h2>
     <p>Element <code class="prettyprint">&lt;meta&gt;</code> wygląda trochę inaczej niż poznane na początku tagi HTML... Nie składa się bowiem ze znacznika otwierającego i zamykającego. Tego typu znaczniki nie zawierają treści, którą mogłyby wyświetlić. Nadal jednak mogą posiadać atrybuty.</p>
     {/* <h2>Znaczniki struktury dokumentu HTML</h2>

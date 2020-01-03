@@ -4,7 +4,7 @@ import Template from './Template'
 import boxmodel from '../assets/box-model.png'
 
 const Excercise = () => (
-  <Template nextStep="/obramowanie">
+  <Template nextStep="/flex-box">
     <h2>Box model</h2>
     <p>W HTML wszystkie elementy są <i>pudełkami</i> składającymi się z kilku warstw.</p>
     <ul>
@@ -15,13 +15,47 @@ const Excercise = () => (
     </ul>
     <img src={boxmodel} />
     <a target="_blank" className="img-source" href="https://the-awwwesomes.gitbooks.io/html-css-step-by-step/content/pl/css-basics/css-box-model/index.html">Źródło: the-awwwesomes.gitbooks.io</a>
-    <h2>Przykład</h2>
+    <h2>Padding</h2>
+    <p>Pusta przestrzeń naokoło zawartości. Może przyjmować różne wartości z każdej strony elementu</p>
     <pre class="prettyprint lang-css">
       <code language="lang-css">
         div &#123;<br />
-        &nbsp;padding: 5px 10px;<br />
-        &nbsp;border: 2px dashed blue;<br />
-        &nbsp;margin: 15px;<br />
+        &nbsp;padding-top: 5px;<br />
+        &nbsp;padding-right: 15px;<br />
+        &nbsp;padding-bottom: 10px;<br />
+        &nbsp;padding-left: 15px;<br />
+        &#125;<br /><br />
+        div &#123;<br />
+        &nbsp;padding: 5px 15px 10px 15px; /* ten sam zapis skrótowo */ <br />
+        &#125;
+      </code>
+    </pre>
+    <h2>Border</h2>
+    <p>Obramowanie wokół elementu - obejmuje zawartość i padding. Możemy nadać mu kolor, styl i grubość.</p>
+    <pre class="prettyprint lang-css">
+      <code language="lang-css">
+        div &#123;<br />
+        &nbsp;border-width: 2px;<br />
+        &nbsp;border-style: dashed;<br />
+        &nbsp;border-color: blue;<br />
+        &#125;<br /><br />
+        div &#123;<br />
+        &nbsp;border: 2px dashed blue; /* ten sam zapis skrótowo */ <br />
+        &#125;
+      </code>
+    </pre>
+    <h2>Margin</h2>
+    <p>Pusta i przeźroczysta przestrzeń naokoło obramowania, definiuje odstęp od innego, sąsiedniego elementu. Mogą przyjmować wartości ujemne.</p>
+    <pre class="prettyprint lang-css">
+      <code language="lang-css">
+        div &#123;<br />
+        &nbsp;margin-top: 5px;<br />
+        &nbsp;margin-right: 15px;<br />
+        &nbsp;margin-bottom: 10px;<br />
+        &nbsp;margin-left: 15px;<br />
+        &#125;<br /><br />
+        div &#123;<br />
+        &nbsp;margin: 5px 15px 10px 15px; /* ten sam zapis skrótowo */ <br />
         &#125;
       </code>
     </pre>
@@ -54,6 +88,8 @@ const Excercise = () => (
     </pre>
     <p>Jakie będą pełne wymiary powyższego elementu?</p>
     <p>Całkowita szerokość = lewy margines + lewe obramowanie + lewy padding + szerokość kontentu + prawy padding + prawe obramowanie + prawy margines<br/>Całkowita wysokość = górny margines + górne obramowanie + górny padding + wysokość kontentu + dolny padding + dolne obramowanie + dolny margines</p>
+    <p>Jeśli chcemy ustalać wielkości naszych elementów bez dodatkowych kalkulacji, możemy zmienić interpretację modelu pudełkowego poprzez zastosowanie właściwości <code class="prettyprint lang-css">box-sizing: border-box;</code></p>
+    <p>Całkowita szerokość = szerokość nadana elementowi</p>
   </Template>
 )
 

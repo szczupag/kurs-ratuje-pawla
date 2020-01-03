@@ -84,7 +84,7 @@ const Excercise = () => (
       border: '1px solid black'
     }}></div>
     <h2>🔥 Zadanie 🔥</h2>
-    <p>Znajdź drugi pobrany obraz jako tło elementu <i>div</i>, którym otoczony został nagłówek. Zdefiniuj odpowiednie właściwości aby wyświetlał się zgodnie z Twoimi oczekiwaniami.</p>
+    <p>Znajdź drugi obraz i ustaw jako tło elementu <i>div</i>, którym otoczony został nagłówek. Zdefiniuj odpowiednie właściwości aby wyświetlał się zgodnie z Twoimi oczekiwaniami.</p>
   </Template>
 )
 

@@ -15,6 +15,7 @@ import e_css from './Excercises/e_css'
 import e_kolory from './Excercises/e_kolory'
 import e_tlo from './Excercises/e_tlo'
 import e_boxmodel from './Excercises/e_box-model'
+import e_flexbox from './Excercises/e_flex-box'
 
 export default function Routes(){
   return (
@@ -32,6 +33,7 @@ export default function Routes(){
       <Route path="/kolory" component={e_kolory} />
       <Route path="/tlo" component={e_tlo} />
       <Route path="/box-model" component={e_boxmodel} />
+      <Route path="/flex-box" component={e_flexbox} />
       <Route path="/fb" component={Fb} />
       <Route path="/" exact component={Main} />
     </Switch>

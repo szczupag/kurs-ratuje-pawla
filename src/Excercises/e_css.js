@@ -37,6 +37,13 @@ const Excercise = () => (
       <li>klasa</li>
       <li>id</li>
     </ul>
+    <pre class="prettyprint lang-css">
+      <code language="lang-css">
+        p &#123;<br />
+        &nbsp;&nbsp;color: red;<br />
+        &#125;<br />
+      </code>
+    </pre>
     <p>Selektory możemy ze sobą łączyć:</p>
     <pre class="prettyprint lang-css">
       <code language="lang-css">

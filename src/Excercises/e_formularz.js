@@ -74,7 +74,7 @@ const Excercise = () => (
       <option value="snickers">Snickers</option>
       <option value="mars">Mars</option>
       <option value="bounty">Bounty</option>
-      <option value="knopers">Knopers</option>
+      <option value="knopers">Knoppers</option>
     </select>
     <h2>Przycisk</h2>
     <pre class="prettyprint">
