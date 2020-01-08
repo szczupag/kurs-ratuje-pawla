@@ -1,7 +1,10 @@
 import React from 'react'
 import Template from './Template'
 
-import boxmodel from '../assets/box-model.png'
+import boxmodel from '../assets/css-box-model.png'
+import padding from '../assets/padding-shortform-four-values.png'
+import paddingShort from '../assets/padding-shortform-two-values.png'
+import border from '../assets/css-border-syntax.png'
 
 const Excercise = () => (
   <Template nextStep="/flex-box">
@@ -14,7 +17,7 @@ const Excercise = () => (
       <li>Margin - Pusta i przeźroczysta przestrzeń naokoło obramowania.</li>
     </ul>
     <img src={boxmodel} />
-    <a target="_blank" className="img-source" href="https://the-awwwesomes.gitbooks.io/html-css-step-by-step/content/pl/css-basics/css-box-model/index.html">Źródło: the-awwwesomes.gitbooks.io</a>
+    <a target="_blank" className="img-source" href="https://internetingishard.com/html-and-css/css-box-model/">Źródło: internetingishard.com</a>
     <h2>Padding</h2>
     <p>Pusta przestrzeń naokoło zawartości. Może przyjmować różne wartości z każdej strony elementu</p>
     <pre class="prettyprint lang-css">
@@ -24,12 +27,21 @@ const Excercise = () => (
         &nbsp;padding-right: 15px;<br />
         &nbsp;padding-bottom: 10px;<br />
         &nbsp;padding-left: 15px;<br />
-        &#125;<br /><br />
+        &#125;<br />
+      </code>
+    </pre>
+    <img src={padding} />
+    <a target="_blank" className="img-source" href="https://internetingishard.com/html-and-css/css-box-model/">Źródło: internetingishard.com</a>
+    <p>Ten sam zapis skrótowo:</p>
+    <pre class="prettyprint lang-css">
+      <code language="lang-css">
         div &#123;<br />
-        &nbsp;padding: 5px 15px 10px 15px; /* ten sam zapis skrótowo */ <br />
+        &nbsp;padding: 5px 15px 10px 15px;<br />
         &#125;
       </code>
     </pre>
+    <img src={paddingShort} />
+    <a target="_blank" className="img-source" href="https://internetingishard.com/html-and-css/css-box-model/">Źródło: internetingishard.com</a>
     <h2>Border</h2>
     <p>Obramowanie wokół elementu - obejmuje zawartość i padding. Możemy nadać mu kolor, styl i grubość.</p>
     <pre class="prettyprint lang-css">
@@ -44,6 +56,8 @@ const Excercise = () => (
         &#125;
       </code>
     </pre>
+    <img src={border} />
+    <a target="_blank" className="img-source" href="https://internetingishard.com/html-and-css/css-box-model/">Źródło: internetingishard.com</a>
     <h2>Margin</h2>
     <p>Pusta i przeźroczysta przestrzeń naokoło obramowania, definiuje odstęp od innego, sąsiedniego elementu. Mogą przyjmować wartości ujemne.</p>
     <pre class="prettyprint lang-css">

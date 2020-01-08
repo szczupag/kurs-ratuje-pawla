@@ -1,7 +1,7 @@
 import React from 'react'
 import Template from './Template'
 
-import syntax from '../assets/e_css-syntax.gif'
+import syntax from '../assets/css-rule.png'
 
 const Excercise = () => (
   <Template nextStep="/kolory">
@@ -60,10 +60,18 @@ const Excercise = () => (
         &#125;<br />
       </code>
     </pre>
+    <p>A także używać jednej reguły do wielu elementów:</p>
+    <pre class="prettyprint lang-css">
+      <code language="lang-css">
+        h1, h2, h3 &#123;<br />
+        &nbsp;&nbsp;color: red;<br />
+        &#125;<br />
+      </code>
+    </pre>
     <h2>Reguła CSS</h2>
     <p>Reguła składa się z <i>selektora</i> i <i>bloku deklaracji</i>. Selektor wskazuje element, którego mają dotyczyć style. W bloku zdefiniowane są deklaracje składające się z par <i>właściwość-wartość</i> </p>
     <img src={syntax} />
-    <a className="img-source" target="_blank" src="https://www.w3schools.com/css/css_syntax.asp">Źródło: w3schools.com</a>
+    <a className="img-source" target="_blank" src="https://internetingishard.com/html-and-css/hello-css/">Źródło: internetingishard.com</a>
     <h2>Internal style</h2>
     <p>Aby nie powielać niepotrzebnie tych samych reguł możemy zastosować specjalny tag <code class="prettyprint">&lt;style&gt;</code> w którym zawieramy reguły CSS. Element należy umieścić na końcu sekcji <i>head</i></p>
     <pre class="prettyprint">

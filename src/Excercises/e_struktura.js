@@ -1,6 +1,5 @@
 import React from 'react'
 import Template from './Template'
-import struktura from '../assets/e01_struktura.png'
 
 const Excercise = () => (
   <Template nextStep="/tagowanie-tekstu">

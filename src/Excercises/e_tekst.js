@@ -86,8 +86,6 @@ const Excercise = () => (
           <li>Zastąp tekst <i>Witaj świecie!</i> głównym tytułem strony.</li>
           <li>Utwórz dwie sekcje z nagłówkami i treścią. Odseparuj je linią horyzontalną.</li>
           <li>Zastosuj w tekście dowolny znacznik formatujący treść.</li>
-          <li>Spróbuj zapisać stronę z błędem, na przykład niedomkniętym znacznikiem. Sprawdź jak wpływa to na wygląd strony oraz czy twój edytor wykrył ten błąd.</li>
-          <li>Przed przejściem do kolejnego etapu napraw błąd i zapisz plik.</li>
         </ol>
     </Template>
 )
