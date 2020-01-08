@@ -26,7 +26,7 @@ const Excercise = () => (
     <h2>🔥 Zadanie 🔥</h2>
     <ol>
       <li>Zastanów się które z dotyczas poznanych elementów HTML są blokowe, a które liniowe.</li>
-      <li>Umieść nagłówek swojej strony w środku elementu <i>div</i> i nadaj mu atrybut <i>id="baner"</i>.</li>
+      <li>Umieść nagłówek swojej strony w środku elementu <i>div</i> i nadaj mu atrybut <i>id="banner"</i>.</li>
       <li>Opakuj sekcje na swojej stronie elementem <i>div</i> o klasie <i>content</i>.</li>
       <li>Opakuj spis treści elementem <i>div</i> o klasie <i>sidebar</i>.</li>
     </ol>

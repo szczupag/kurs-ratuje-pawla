@@ -2,11 +2,15 @@ import React from 'react'
 import Template from './Template'
 import diagram from '../assets/e00_diagram.png'
 
+import becoming from '../assets/becoming.png'
+
 const Excercise = () => (
   <Template nextStep="/struktura-html">
     <h2>Witaj na kursie!</h2>
     <p>Dziękujemy za zapisanie się na charytatywny kurs - Podstawy HTML i CSS! Podczas warsztatów nauczysz się tworzyć proste strony internetowe, a także obsługiwać narzędzia z nimi związane.</p>
     <p>Kurs podzielony jest na zadania. Każdy kolejny krok zbliży Cię do ukończenia Twojej pierwszej strony internetowej! W każdym rozdziale znajduje się krótki wstęp teoretyczny, który jest szerzej omawiany podczas trwania warsztatów, ale pozwoli Ci wrócić po ukończeniu kursu do interesujących Cię zagadnień.</p>
+    <img src={becoming} />
+    <a target="_blank" className="img-source" href="https://internetingishard.com/">Źródło: internetingishard.com</a>
     <h2>Jak w ogóle działa internet? 🤔</h2>
     <p>Zanim przejdziemy do tworzenia stron, zastanówmy się jak one działają. Pomyśl o tym jak otwierasz swoją ulubioną stronę internetową. Czy wiesz co się dzieje po wpisaniu adresu URL w oknie przeglądarki? Co sprawia że strona się wyświetla?</p>
     <h2>Adres URL</h2>

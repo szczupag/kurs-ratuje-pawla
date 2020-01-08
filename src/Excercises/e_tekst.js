@@ -84,7 +84,7 @@ const Excercise = () => (
         <h2>🔥 Zadanie 🔥</h2>
         <ol>
           <li>Zastąp tekst <i>Witaj świecie!</i> głównym tytułem strony.</li>
-          <li>Utwórz dwie sekcje z nagłówkami i treścią. Odseparuj je linią horyzontalną.</li>
+          <li>Utwórz dwie sekcje z nagłówkami i treścią. Odseparuj je linią horyzontalną. Możesz użyć <a target="_blank" href="https://loremipsum.io/">tego narzędzia</a> do wygenerowania treści.</li>
           <li>Zastosuj w tekście dowolny znacznik formatujący treść.</li>
         </ol>
     </Template>

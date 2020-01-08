@@ -111,7 +111,7 @@ h2:not(:first-of-type) {
 .img-source {
     display: block;
     text-decoration: none;
-    color: #ffbddf !important;
+    color: #ffbddf9d !important;
     font-size: 0.7rem;
     margin-bottom: 1.5rem;
 }

@@ -1,11 +1,15 @@
 import React from 'react'
 import Template from './Template'
 
+import markup from '../assets/html-markup.png'
+
 const Excercise = () => (
   <Template nextStep="/tagowanie-tekstu">
     <h2>HTML to nie język programowania</h2>
     <p>HTML jest językiem znaczników wykorzystywanym do tworzenia stron internetowych, pozwalający opisać ich strukturę i podstawowy wygląd. Do zaawansowanego dostosowywania wyglądu elementów strony wykorzystywane są kaskadowe arkusze stylów (CSS). CSS to lista dyrektyw ustalających sposób w jaki ma zostać wyświetlona zawartość wybranych elementów HTML.</p>
     <h2>HTML to język znaczników</h2>
+    <img src={markup} />
+    <a target="_blank" className="img-source" href="https://internetingishard.com/">Źródło: internetingishard.com</a>
     <p>Podstawową jednostką języka HTML są zanczniki, zwane też tagami. Listę obsługiwanych tagów oraz ich przeznaczenie możesz sprawdzić <a target="_blank" href="https://developer.mozilla.org/pl/docs/Web/HTML/Element">tutaj</a>. Element HTML składa się z kontentu otoczonego tagiem otwierającym i zamykającym.</p>
     <pre class="prettyprint">
       <code language="lang-html">

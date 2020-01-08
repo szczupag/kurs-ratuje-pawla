@@ -54,7 +54,7 @@ const Excercise = () => (
     <h2>Pole jednokrotnego wyboru</h2>
     <pre class="prettyprint">
       <code language="lang-html">
-        &lt;input type="checkbox" name="radioGroup" /&gt;<br />
+        &lt;input type="radio" name="radioGroup" /&gt;<br />
       </code>
     </pre><br />
     <from>
@@ -125,6 +125,9 @@ const Excercise = () => (
         &nbsp;&nbsp;&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;<br />
         &lt;/head&gt;<br /><br />
         &lt;body&gt;<br />
+        &nbsp;&nbsp;&lt;div id="banner"&gt;<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Newsletter&lt;/h1&gt;<br />
+        &nbsp;&nbsp;&lt;/div&gt;<br />
         &nbsp;&nbsp;&lt;div class="content"&gt;<br />
         &nbsp;&nbsp;&lt;/div&gt;<br />
         &lt;/body&gt;<br /><br />

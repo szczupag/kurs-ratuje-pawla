@@ -146,11 +146,15 @@ const Excercise = () => (
       </code>
     </pre>
     <h2>🔥 Zadanie 🔥</h2>
-    <p>Utwórz plik <i>style.css</i> i załącz go do strony <i>index.html</i> oraz <i>newsletter.html</i>. Stwórz w pliku następujące reguły:</p>
-    <ul>
-      <li>Dopasuj kolor i wielkość nagłówków wedle uznania.</li>
-      <li>Nadaj elementom <code class="prettyprint">&lt;a&gt;</code> w spisie treści regułę <code class="prettyprint lang-css">text-decoration: none;</code> oraz <code class="prettyprint lang-css">color: inherit;</code> </li>
-    </ul>
+    <ol>
+      <li>Utwórz folder <i>assets</i>, a w nim plik <i>style.css</i> i załącz go do strony <i>index.html</i>. Stwórz w pliku następujące reguły:
+      <ul>
+          <li>Zmień kolor i wielkość elementów h1 oraz h2.</li>
+          <li>Nadaj elementom <code class="prettyprint">&lt;a&gt;</code> w spisie treści regułę <code class="prettyprint lang-css">text-decoration: none;</code> oraz <code class="prettyprint lang-css">color: inherit;</code> </li>
+        </ul>
+      </li>
+      <li>Załącz ten sam plik ze stylami do strony <i>newsletter.html</i> i sprawdź rezultat.</li>
+    </ol>
   </Template>
 )
 

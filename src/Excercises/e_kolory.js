@@ -1,26 +1,39 @@
 import React from 'react'
 import Template from './Template'
 
+const box = {
+  color: "white",
+  fontSize: "0.7em",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  width: "25%",
+  height: "100px",
+  borderRadius: "4px"
+}
+
 const Excercise = () => (
   <Template nextStep="/font">
     <h2>Kolory</h2>
     <p>Kolory określa się używając predefiniowanych nazw lub wartości RGB, HEX i innych palet. Dla przykładu poniżej znajduje się opis tego samego koloru na różne sposoby:</p>
     <pre class="prettyprint lang-css">
       <code language="lang-css">
-        p &#123;<br />
+        .box &#123;<br />
           &nbsp;&nbsp;background-color: tomato;<br />
         &#125;<br /><br />
-        p &#123;<br />
+        .box &#123;<br />
           &nbsp;&nbsp;background-color: rgb(255, 99, 71);<br />
         &#125;<br /><br />
-        p &#123;<br />
+        .box &#123;<br />
           &nbsp;&nbsp;background-color: #ff6347;<br />
         &#125;
       </code>
     </pre>
-    <p style={{backgroundColor: "tomato", color: "#fff", padding: "5px 10px", textAlign: "center"}}>tomato</p>
-    <p style={{backgroundColor: "rgb(255, 99, 71)", color: "#fff", padding: "5px 10px", textAlign: "center"}}>rgb(255, 99, 71)</p>
-    <p style={{backgroundColor: "#ff6347", color: "#fff", padding: "5px 10px", textAlign: "center"}}>#ff6347</p>
+    <div style={{display: "flex", justifyContent: "space-between"}}>
+      <div style={{ backgroundColor: "tomato", ...box }}>tomato</div>
+      <div style={{ backgroundColor: "rgb(255, 99, 71)", ...box }}>rgb(255, 99, 71)</div>
+      <div style={{ backgroundColor: "#ff6347", ...box }}>#ff6347</div>
+    </div>
     <h2>RGB</h2>
     <p>Składa się z 3 składowych przyjmujących wartości z zakresu od 0 do 255</p>
     <ul>
