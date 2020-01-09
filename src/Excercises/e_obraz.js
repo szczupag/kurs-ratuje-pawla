@@ -26,7 +26,7 @@ const Excercise = () => (
     <h2>🔥 Zadanie 🔥</h2>
     <ol>
       <li>Utwórz w porojekcie folder o nazwie <i>images.</i></li>
-      <li>Znajdź na <a target="_blank" href="https://unsplash.com/">stronie z darmowymi zdjęciami</a> obraz pasujący do Twojej strony i zapisz go w nowo utworzonym folderze.</li>
+      <li>Znajdź w <a target="_blank" href="https://images.google.com/">Google Images</a> lub na <a target="_blank" href="https://unsplash.com/">stronie z darmowymi zdjęciami</a> obraz pasujący do Twojej strony i zapisz go w nowo utworzonym folderze.</li>
       <li>Umieść obraz pomiędzy paragrafami tekstu i nadaj mu tekst alternatywny.</li>
       <li>Nadaj wymiary obrazu za pomocą atrybutów <i>width</i> oraz <i>height.</i></li>
     </ol>

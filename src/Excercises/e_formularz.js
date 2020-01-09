@@ -1,9 +1,13 @@
 import React from 'react'
 import Template from './Template'
 
+import form from '../assets/html-form-elements.png'
+
 const Excercise = () => (
   <Template nextStep="/css">
     <h2>Formularz</h2>
+    <img src={form} />
+    <a target="_blank" className="img-source" href="https://internetingishard.com/">Źródło: internetingishard.com</a>
     <p>Element <code class="prettyprint">&lt;form&gt;</code> definiuje formularz, który służy do wporwadzania danych przez użytkownika. Może zawierać różne typy elementów. Pełną listę możesz sprawdzić <a target="_blank" href="https://www.w3schools.com/html/html_form_input_types.asp">tutaj.</a> Do obsługi danych wysłanych przez formularz wykorzystuje się skrypty.</p>
     <h2>Pole tekstowe</h2>
     <pre class="prettyprint">
@@ -135,7 +139,7 @@ const Excercise = () => (
             </code>
     </pre>
     <p>Stwórz w elemencie <i>div</i> formularz do newslettera o poniższej strukturze, dobierając odpowiednie rodzaje pól i ich atrybuty</p>
-    <ul style={{listStyleType: "none"}}>
+    <ul style={{ listStyleType: "none" }}>
       <li>Imię</li>
       <li>Adres email*</li>
       <li>Jak często chcesz otrzymywać nasz newsletter?
