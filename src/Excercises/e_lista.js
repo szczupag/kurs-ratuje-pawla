@@ -58,7 +58,11 @@ const Excercise = () => (
       </li>
     </ol>
     <h2>🔥 Zadanie 🔥</h2>
-    <p>Stwórz spis treści Twojej strony za pomocą listy nieuporządkowanej.</p>
+    <p>Stwórz listę nieuporządkowaną na początku strony i dodaj do niej dwa elementy</p>
+    <ul>
+      <li>Strona główna</li>
+      <li>Newsletter</li>
+    </ul>
   </Template>
 )
 

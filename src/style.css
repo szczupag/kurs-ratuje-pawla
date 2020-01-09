@@ -26,8 +26,8 @@ body {
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 .btn-wrapper-center {
@@ -67,8 +67,8 @@ a {
 
 .container {
 	margin-right: auto;
-  margin-left: auto;
-  padding: 0 15px;
+	margin-left: auto;
+	padding: 0 15px;
 }
 
 @media (min-width: 768px) {

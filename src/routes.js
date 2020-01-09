@@ -18,6 +18,7 @@ import e_boxmodel from './Excercises/e_box-model'
 import e_flexbox from './Excercises/e_flex-box'
 import e_font from './Excercises/e_font'
 import e_responsywnosc from './Excercises/e_responsywnosc'
+import e_podsumowanie from './Excercises/e_podsumowanie'
 
 export default function Routes(){
   return (
@@ -38,6 +39,7 @@ export default function Routes(){
       <Route path="/flex-box" component={e_flexbox} />
       <Route path="/font" component={e_font} />
       <Route path="/responsywnosc" component={e_responsywnosc} />
+      <Route path="/podsumowanie" component={e_podsumowanie} />
       <Route path="/fb" component={Fb} />
       <Route path="/" exact component={Main} />
     </Switch>

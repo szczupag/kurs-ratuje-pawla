@@ -1,10 +1,14 @@
 h1 {
-    font-size: 3em;
+    font-size: 4em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
 }
 
 h2 {
     font-size: 2em;
     color: indianred;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 a {
@@ -20,4 +24,34 @@ body {
 
 .content {
     background-color: #fff;
+    padding: 20px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#banner {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/yoddle.jpg');
+    background-size: cover;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: #eee0d5;
+    background-color: indianred;
+}
+
+.menu li {
+    margin: 20px;
+}
+
+img {
+    float: right;
 }

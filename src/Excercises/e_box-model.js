@@ -6,6 +6,9 @@ import padding from '../assets/padding-shortform-four-values.png'
 import paddingShort from '../assets/padding-shortform-two-values.png'
 import border from '../assets/css-border-syntax.png'
 
+import contentBox from '../assets/box-sizing-content-box.png'
+import borderBox from '../assets/box-sizing-border-box.png'
+
 const Excercise = () => (
   <Template nextStep="/flex-box">
     <h2>Box model</h2>
@@ -101,15 +104,22 @@ const Excercise = () => (
       </code>
     </pre>
     <p>Jakie będą pełne wymiary powyższego elementu?</p>
-    <p><b>Całkowita szerokość</b> = lewy margines + lewe obramowanie + lewy padding + szerokość kontentu + prawy padding + prawe obramowanie + prawy margines<br/><b>Całkowita wysokość</b> = górny margines + górne obramowanie + górny padding + wysokość kontentu + dolny padding + dolne obramowanie + dolny margines</p>
+    <img src={contentBox} />
+    <a target="_blank" className="img-source" href="https://internetingishard.com/html-and-css/css-box-model/">Źródło: internetingishard.com</a>
     <p>Jeśli chcemy ustalać wielkości naszych elementów bez dodatkowych kalkulacji, możemy zmienić interpretację modelu pudełkowego poprzez zastosowanie właściwości <code class="prettyprint lang-css">box-sizing: border-box;</code></p>
-    <p><b>Całkowita szerokość</b> = szerokość nadana elementowi<br /><b>Całkowita wysokość</b> = wysokość nadana elementowi</p>
+    <img src={borderBox} />
+    <a target="_blank" className="img-source" href="https://internetingishard.com/html-and-css/css-box-model/">Źródło: internetingishard.com</a>
     <h2>🔥 Zadanie 🔥</h2>
-    <ul>
-      <li>Nadaj banerowi padding, tak aby nagłówek w nim zawarty prezentował się bardziej atrakcyjnie.</li>
-      <li>Dodaj do banera właściwość <i>margin-bottom</i> aby uzyskać odstęp od treści.</li>
-      <li>Zastosuj padding w elementach z klasą <i>content</i> i <i>sidebar.</i></li>
-    </ul>
+    <p>Zastosuj padding w elemencie z klasą <i>content</i>.</p>
+    <p>W następnym kroku dodaj do elementu poniższe reguły i sprawdź efekt:</p>
+    <pre class="prettyprint lang-css">
+      <code language="lang-css">
+        .content &#123;<br />
+        &nbsp;&nbsp;max-width: 800px;<br />
+        &nbsp;&nbsp;margin: 0 auto;<br />
+        &#125;<br /><br />
+      </code>
+    </pre>
   </Template>
 )
 

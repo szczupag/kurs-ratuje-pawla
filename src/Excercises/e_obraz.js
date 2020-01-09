@@ -25,7 +25,7 @@ const Excercise = () => (
     <p>Do naszego obrazu możemy też dodać tytuł - będzie on wyświetlany po najechaniu kursorem na obraz</p>
     <h2>🔥 Zadanie 🔥</h2>
     <ol>
-      <li>Utwórz w porojekcie folder o nazwie <i>images.</i></li>
+      <li>Utwórz w projekcie folder o nazwie <i>images.</i></li>
       <li>Znajdź w <a target="_blank" href="https://images.google.com/">Google Images</a> lub na <a target="_blank" href="https://unsplash.com/">stronie z darmowymi zdjęciami</a> obraz pasujący do Twojej strony i zapisz go w nowo utworzonym folderze.</li>
       <li>Umieść obraz pomiędzy paragrafami tekstu i nadaj mu tekst alternatywny.</li>
       <li>Nadaj wymiary obrazu za pomocą atrybutów <i>width</i> oraz <i>height.</i></li>

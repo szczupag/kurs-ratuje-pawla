@@ -20,7 +20,7 @@ const Excercise = () => (
       </code>
     </pre>
     <h2>🔥 Zadanie 🔥</h2>
-    <p>Nadaj nagłówkom sekcji unikalne atrybuty id.</p>
+    <p>Nadaj liście klasę <i>menu</i>.</p>
   </Template>
 )
 

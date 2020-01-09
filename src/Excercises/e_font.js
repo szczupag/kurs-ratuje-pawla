@@ -35,7 +35,7 @@ const Excercise = () => (
     </pre>
     <p>Nadając font elementowi body, wszystkie elementy w środku będą dziedziczyć tą regułę. W ten sposób możemy ustawić domyślną czcionkę na naszej stronie.</p>
     <h2>🔥 Zadanie 🔥</h2>
-    <p>Wybierz na stronie <a target="_blank" href="https://www.google.com/fonts">Google Fonts</a> 2 kroje pisma i zastosuj je do nagłówków oraz treści.</p> 
+    <p>Wybierz na stronie <a target="_blank" href="https://www.google.com/fonts">Google Fonts</a> trzy kroje pisma i zastosuj je do tytułu, nagłówków oraz treści. Pamiętaj aby odpowiedni kod dodać również w pliku <i>newsletter.html</i>.</p> 
   </Template>
 )
 

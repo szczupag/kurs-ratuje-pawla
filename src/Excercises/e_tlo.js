@@ -83,7 +83,18 @@ const Excercise = () => (
       border: '1px solid black'
     }}></div>
     <h2>🔥 Zadanie 🔥</h2>
-    <p>Znajdź w <a target="_blank" href="https://images.google.com/">Google Images</a> lub <a target="_blank" href="https://unsplash.com/">tutaj</a> drugi obraz i ustaw jako tło elementu <i>div</i>, którym otoczony został nagłówek. Zdefiniuj odpowiednie właściwości aby wyświetlał się zgodnie z Twoimi oczekiwaniami.</p>
+    <p>Dodaj do swojej strony następujące style:</p>
+    <pre class="prettyprint lang-css">
+      <code language="lang-css">
+        #banner &#123;<br />
+        &nbsp;&nbsp;height: flex;<br />
+        &nbsp;&nbsp;display: flex;<br />
+        &nbsp;&nbsp;justify-content: center;<br />
+        &nbsp;&nbsp;align-items: center;<br />
+        &#125;<br /><br />
+      </code>
+    </pre>
+    <p>Następnie znajdź w <a target="_blank" href="https://images.google.com/">Google Images</a> lub <a target="_blank" href="https://unsplash.com/">tutaj</a> drugi obraz i ustaw jako tło powyższego elementu. Zdefiniuj odpowiednie właściwości aby wyświetlał się zgodnie z Twoimi oczekiwaniami.</p>
   </Template>
 )
 
