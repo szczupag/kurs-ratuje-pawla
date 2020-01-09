@@ -5,7 +5,9 @@ import './style.css'
 
 const Navigation = () => (
   <div className="navigation">
-    <ul>
+    <input id="collapse" class="collapse-checkbox" type="checkbox" />
+    <label for="collapse" class="collapse-label">Spis treści ></label>
+    <ul class="nav">
       <li><NavLink to="/wprowadzenie">Wprowadzenie</NavLink></li>
       <li><NavLink to="/struktura-html">Struktura dokumentu</NavLink></li>
       <li><NavLink to="/tagowanie-tekstu">Tagowanie tekstu</NavLink></li>

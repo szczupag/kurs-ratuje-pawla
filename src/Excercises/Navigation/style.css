@@ -28,3 +28,26 @@
 .navigation li {
     margin: 16px 0;
 }
+
+.collapse-label {
+    color: #80c6ff;
+    font-size: 1.5em;
+    font-family: 'VT323', monospace;
+    display: none;
+}
+
+.collapse-checkbox {
+    display: none;
+}
+
+@media (max-width: 1199px) {
+    .collapse-label {
+        display: block;
+    }
+    .nav {
+        display: none;
+    }
+}
+.collapse-checkbox:checked + .collapse-label + .nav {
+    display: block;
+}

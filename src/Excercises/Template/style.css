@@ -32,6 +32,12 @@
     text-shadow: 0 0 6px #fa56aa7a;
 }
 
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+}
+
 h2 {
     /* color: #0a1c47; */
     color: #fa56aa;
