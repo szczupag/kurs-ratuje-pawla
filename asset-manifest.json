@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kurs-ratuje-pawla/static/css/main.a7d6a2e7.chunk.css",
-    "main.js": "/kurs-ratuje-pawla/static/js/main.c3fcd375.chunk.js",
-    "main.js.map": "/kurs-ratuje-pawla/static/js/main.c3fcd375.chunk.js.map",
+    "main.css": "/kurs-ratuje-pawla/static/css/main.9f576873.chunk.css",
+    "main.js": "/kurs-ratuje-pawla/static/js/main.7da99613.chunk.js",
+    "main.js.map": "/kurs-ratuje-pawla/static/js/main.7da99613.chunk.js.map",
     "runtime-main.js": "/kurs-ratuje-pawla/static/js/runtime-main.76d6438c.js",
     "runtime-main.js.map": "/kurs-ratuje-pawla/static/js/runtime-main.76d6438c.js.map",
     "static/js/2.fc80c1ea.chunk.js": "/kurs-ratuje-pawla/static/js/2.fc80c1ea.chunk.js",
     "static/js/2.fc80c1ea.chunk.js.map": "/kurs-ratuje-pawla/static/js/2.fc80c1ea.chunk.js.map",
     "index.html": "/kurs-ratuje-pawla/index.html",
-    "precache-manifest.699c38f58ae4f260e57c85b526162ab9.js": "/kurs-ratuje-pawla/precache-manifest.699c38f58ae4f260e57c85b526162ab9.js",
+    "precache-manifest.309e282699f84dea49caa2f2d9299954.js": "/kurs-ratuje-pawla/precache-manifest.309e282699f84dea49caa2f2d9299954.js",
     "service-worker.js": "/kurs-ratuje-pawla/service-worker.js",
-    "static/css/main.a7d6a2e7.chunk.css.map": "/kurs-ratuje-pawla/static/css/main.a7d6a2e7.chunk.css.map",
+    "static/css/main.9f576873.chunk.css.map": "/kurs-ratuje-pawla/static/css/main.9f576873.chunk.css.map",
     "static/js/2.fc80c1ea.chunk.js.LICENSE": "/kurs-ratuje-pawla/static/js/2.fc80c1ea.chunk.js.LICENSE",
     "static/media/becoming.png": "/kurs-ratuje-pawla/static/media/becoming.d4002a3c.png",
     "static/media/box-sizing-border-box.png": "/kurs-ratuje-pawla/static/media/box-sizing-border-box.1f997496.png",
@@ -33,12 +33,12 @@
     "static/media/padding-shortform-four-values.png": "/kurs-ratuje-pawla/static/media/padding-shortform-four-values.6914e5d2.png",
     "static/media/padding-shortform-two-values.png": "/kurs-ratuje-pawla/static/media/padding-shortform-two-values.467c0fe7.png",
     "static/media/pointer.svg": "/kurs-ratuje-pawla/static/media/pointer.29a7e036.svg",
-    "static/media/style.css": "/kurs-ratuje-pawla/static/media/stars-grad.b214e147.png"
+    "static/media/style.css": "/kurs-ratuje-pawla/static/media/stars.d1fb7571.png"
   },
   "entrypoints": [
     "static/js/runtime-main.76d6438c.js",
     "static/js/2.fc80c1ea.chunk.js",
-    "static/css/main.a7d6a2e7.chunk.css",
-    "static/js/main.c3fcd375.chunk.js"
+    "static/css/main.9f576873.chunk.css",
+    "static/js/main.7da99613.chunk.js"
   ]
 }
