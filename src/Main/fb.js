@@ -22,7 +22,6 @@ const Main = () => (
             </div>
             <div className="fb-footer">
                 <p className="fb-btn">Biorę udział</p>
-                {/* <p className="fb-btn">Wchodzę</p> */}
                 <img src={pointer} />
             </div>
         </div>

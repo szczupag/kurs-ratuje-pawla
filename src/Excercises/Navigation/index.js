@@ -13,7 +13,7 @@ const Navigation = () => (
       <li><NavLink to="/klasy-id">Klasa i id</NavLink></li>
       <li><NavLink to="/link">Link</NavLink></li>
       <li><NavLink to="/obraz">Obraz</NavLink></li>
-      <li><NavLink to="/inline-vs-block">Elementy blokowe i liniowe</NavLink></li>
+      <li><NavLink to="/inline-vs-block">Inline vs Block</NavLink></li>
       <li><NavLink to="/formularz">Formularz</NavLink></li>
       <li><NavLink to="/css">CSS</NavLink></li>
       <li><NavLink to="/kolory">Kolor</NavLink></li>

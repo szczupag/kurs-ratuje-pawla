@@ -13,7 +13,6 @@ const Excercise = () => (
       <li>background-position</li>
       <li>background-size</li>
     </ul>
-    <p>Pierwszą z nich już poznaliśmy. Pozostałe zaś używamy gdy jako tło chcemy wykorzystać obraz.</p>
     <h2>Obraz tła</h2>
     <p>Aby ustawić obraz jako tło elementu, należy podać jego ścieżkę w następujący sposób:</p>
     <pre class="prettyprint lang-css">
@@ -84,7 +83,7 @@ const Excercise = () => (
       border: '1px solid black'
     }}></div>
     <h2>🔥 Zadanie 🔥</h2>
-    <p>Znajdź <a target="_blank" href="https://unsplash.com/">tutaj</a> drugi obraz i ustaw jako tło elementu <i>div</i>, którym otoczony został nagłówek. Zdefiniuj odpowiednie właściwości aby wyświetlał się zgodnie z Twoimi oczekiwaniami.</p>
+    <p>Znajdź w <a target="_blank" href="https://images.google.com/">Google Images</a> lub <a target="_blank" href="https://unsplash.com/">tutaj</a> drugi obraz i ustaw jako tło elementu <i>div</i>, którym otoczony został nagłówek. Zdefiniuj odpowiednie właściwości aby wyświetlał się zgodnie z Twoimi oczekiwaniami.</p>
   </Template>
 )
 
