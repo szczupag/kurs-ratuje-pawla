@@ -110,16 +110,20 @@ const Excercise = () => (
     <img src={borderBox} />
     <a target="_blank" className="img-source" href="https://internetingishard.com/html-and-css/css-box-model/">Źródło: internetingishard.com</a>
     <h2>🔥 Zadanie 🔥</h2>
-    <p>Zastosuj padding w elemencie z klasą <i>content</i>.</p>
-    <p>W następnym kroku dodaj do elementu poniższe reguły i sprawdź efekt:</p>
-    <pre class="prettyprint lang-css">
-      <code language="lang-css">
-        .content &#123;<br />
-        &nbsp;&nbsp;max-width: 800px;<br />
-        &nbsp;&nbsp;margin: 0 auto;<br />
-        &#125;<br /><br />
-      </code>
-    </pre>
+    <ol>
+      <li>Zastosuj padding w elemencie z klasą <i>content</i>.</li>
+      <li>W następnym kroku dodaj do elementu poniższe reguły i sprawdź efekt:
+      <pre class="prettyprint lang-css">
+        <code language="lang-css">
+          .content &#123;<br />
+          &nbsp;&nbsp;max-width: 800px;<br />
+          &nbsp;&nbsp;margin: 0 auto;<br />
+          &#125;<br /><br />
+        </code>
+      </pre>
+      </li>
+      <li>Nadaj style elementom formularza. Spróbuj między innymi zmienić obramowanie dwóch pierwszych <i>inputów</i>.</li>
+    </ol>
   </Template>
 )
 

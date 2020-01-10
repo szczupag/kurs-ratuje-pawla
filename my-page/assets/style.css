@@ -36,6 +36,7 @@ body {
     align-items: center;
     background-image: url('../images/yoddle.jpg');
     background-size: cover;
+    margin-bottom: 32px;
 }
 
 .menu {
@@ -45,7 +46,7 @@ body {
     display: flex;
     justify-content: center;
     color: #eee0d5;
-    background-color: indianred;
+    background-color: #773838;
 }
 
 .menu li {
