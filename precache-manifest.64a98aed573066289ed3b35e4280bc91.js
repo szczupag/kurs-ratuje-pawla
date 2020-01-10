@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd4cb8424d34fb52094b5fca10eb32fa",
+    "revision": "0567199500c1e3c7f9631d8c873b3860",
     "url": "/kurs-ratuje-pawla/index.html"
   },
   {
-    "revision": "2335d48755de7a516825",
+    "revision": "aafe67cada501b902420",
     "url": "/kurs-ratuje-pawla/static/css/main.9f576873.chunk.css"
   },
   {
-    "revision": "931fee586ee5700e5899",
-    "url": "/kurs-ratuje-pawla/static/js/2.fc80c1ea.chunk.js"
+    "revision": "82d40084b5233bcefd83",
+    "url": "/kurs-ratuje-pawla/static/js/2.76e4a489.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/kurs-ratuje-pawla/static/js/2.fc80c1ea.chunk.js.LICENSE"
+    "url": "/kurs-ratuje-pawla/static/js/2.76e4a489.chunk.js.LICENSE"
   },
   {
-    "revision": "2335d48755de7a516825",
-    "url": "/kurs-ratuje-pawla/static/js/main.7da99613.chunk.js"
+    "revision": "aafe67cada501b902420",
+    "url": "/kurs-ratuje-pawla/static/js/main.6fc0d979.chunk.js"
   },
   {
     "revision": "a6a605d5b4ec6e9c578e",
@@ -60,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kurs-ratuje-pawla/static/media/e03_example-lists.731f71e8.png"
   },
   {
+    "revision": "614e9fcb4438ecd7aeeacb92096f79b3",
+    "url": "/kurs-ratuje-pawla/static/media/empressia.614e9fcb.png"
+  },
+  {
     "revision": "25fbeec52ce9f706358d67a0cc524ec6",
     "url": "/kurs-ratuje-pawla/static/media/flex-align-items.25fbeec5.png"
   },
@@ -96,6 +100,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kurs-ratuje-pawla/static/media/minimize.7a132f75.svg"
   },
   {
+    "revision": "98a80e0fa23c89f9f9d63a69e83407e2",
+    "url": "/kurs-ratuje-pawla/static/media/mobile-first-design.98a80e0f.png"
+  },
+  {
     "revision": "6914e5d25e154bbcb88f8ec2d30773fa",
     "url": "/kurs-ratuje-pawla/static/media/padding-shortform-four-values.6914e5d2.png"
   },
@@ -106,6 +114,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "29a7e036d3af6ed8ffe4d9761650d7a4",
     "url": "/kurs-ratuje-pawla/static/media/pointer.29a7e036.svg"
+  },
+  {
+    "revision": "f716790d53e25a51d8c73108b8c1c7b6",
+    "url": "/kurs-ratuje-pawla/static/media/responsive-websites.f716790d.png"
   },
   {
     "revision": "d1fb7571962a3cd4e61eeef0eb36a098",
