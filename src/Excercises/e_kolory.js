@@ -41,7 +41,7 @@ const Excercise = () => (
       <li>G - green</li>
       <li>B - blue</li>
     </ul>
-    <p>rgb(0, 0, 0) dopowiada kolorowi białemu, a rgb(255, 255, 255) czarnemu.</p>
+    <p>rgb(0, 0, 0) odpowiada kolorowi czarnemu, a rgb(255, 255, 255) białemu.</p>
     <h2>HEX</h2>
     <p>Kolor składa się ze składowych #rrggbb, gdzie wartości</p>
     <ul>
