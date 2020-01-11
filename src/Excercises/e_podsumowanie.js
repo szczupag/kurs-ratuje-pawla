@@ -23,6 +23,8 @@ const Excercise = () => (
       <li><a href="https://www.w3schools.com/js/default.asp" target="_blank">Java Script</a></li>
       <li><a href="https://guides.github.com/activities/hello-world/" target="_blank">Github</a></li>
     </ul>
+    <h2>Najlepsze z najlepszych!</h2>
+    <p><a href="https://doodle.com/poll/bgrhpgvqvf2mxyip" target="_blank" >ankieta</a></p>
   </Template>
 )
 
