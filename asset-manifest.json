@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kurs-ratuje-pawla/static/css/main.9f576873.chunk.css",
-    "main.js": "/kurs-ratuje-pawla/static/js/main.6fc0d979.chunk.js",
-    "main.js.map": "/kurs-ratuje-pawla/static/js/main.6fc0d979.chunk.js.map",
+    "main.js": "/kurs-ratuje-pawla/static/js/main.ae855e49.chunk.js",
+    "main.js.map": "/kurs-ratuje-pawla/static/js/main.ae855e49.chunk.js.map",
     "runtime-main.js": "/kurs-ratuje-pawla/static/js/runtime-main.76d6438c.js",
     "runtime-main.js.map": "/kurs-ratuje-pawla/static/js/runtime-main.76d6438c.js.map",
     "static/js/2.76e4a489.chunk.js": "/kurs-ratuje-pawla/static/js/2.76e4a489.chunk.js",
     "static/js/2.76e4a489.chunk.js.map": "/kurs-ratuje-pawla/static/js/2.76e4a489.chunk.js.map",
     "index.html": "/kurs-ratuje-pawla/index.html",
-    "precache-manifest.64a98aed573066289ed3b35e4280bc91.js": "/kurs-ratuje-pawla/precache-manifest.64a98aed573066289ed3b35e4280bc91.js",
+    "precache-manifest.c8a6d137e70f7b6e34619f7f4ca4ac30.js": "/kurs-ratuje-pawla/precache-manifest.c8a6d137e70f7b6e34619f7f4ca4ac30.js",
     "service-worker.js": "/kurs-ratuje-pawla/service-worker.js",
     "static/css/main.9f576873.chunk.css.map": "/kurs-ratuje-pawla/static/css/main.9f576873.chunk.css.map",
     "static/js/2.76e4a489.chunk.js.LICENSE": "/kurs-ratuje-pawla/static/js/2.76e4a489.chunk.js.LICENSE",
@@ -42,6 +42,6 @@
     "static/js/runtime-main.76d6438c.js",
     "static/js/2.76e4a489.chunk.js",
     "static/css/main.9f576873.chunk.css",
-    "static/js/main.6fc0d979.chunk.js"
+    "static/js/main.ae855e49.chunk.js"
   ]
 }
